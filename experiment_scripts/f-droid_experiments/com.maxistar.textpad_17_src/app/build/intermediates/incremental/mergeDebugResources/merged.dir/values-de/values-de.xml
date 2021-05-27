@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="About">Über</string>
+    <string name="About_Editor">Über Editor</string>
+    <string name="Appearance">Aussehen</string>
+    <string name="Are_you_sure_to_quit">Möchten Sie die Anwendung wirklich beenden?</string>
+    <string name="Background_Color">Background Color</string>
+    <string name="Can_not_read_file">Datei kann nicht gelesen werden</string>
+    <string name="Can_not_write_file">Datei kann nicht geschrieben werden</string>
+    <string name="Cancel">Stornieren</string>
+    <string name="Choose_Language">Sprache wählen</string>
+    <string name="Choose_a_background_color">Wählen Sie eine Hintergrundfarbe</string>
+    <string name="Choose_a_color">Wähle eine Farbe</string>
+    <string name="Choose_a_font_color">Wählen Sie eine Schriftfarbe</string>
+    <string name="Choose_a_font_size">Wählen Sie eine Schriftgröße</string>
+    <string name="Choose_a_font_type">Wählen Sie eine Schriftart</string>
+    <string name="Click_to_change_encoding">Klicken Sie hier, um die Kodierung zu ändern</string>
+    <string name="Click_to_change_language">Klicken Sie auf, um die Sprache der Benutzeroberfläche zu ändern</string>
+    <string name="Continue">Fortsetzen</string>
+    <string name="Create">Speichern</string>
+    <string name="Encoding">Kodierung</string>
+    <string name="Existing_file_will_be_overwritten">Bestehende Datei wird überschrieben. Möchten Sie fortfahren?</string>
+    <string name="Exit">Ausgang</string>
+    <string name="File_Name">Dateiname:</string>
+    <string name="File_Written">Datei geschrieben</string>
+    <string name="File_already_exists">Die Datei existiert bereits</string>
+    <string name="File_not_found">Datei nicht gefunden</string>
+    <string name="File_not_saved">Datei nicht gespeichert:</string>
+    <string name="File_opened_">Datei geöffnet</string>
+    <string name="Font">Schriftart</string>
+    <string name="Font_Color">Schriftfarbe</string>
+    <string name="Font_Size">Schriftgröße</string>
+    <string name="Just_a_little_FYI">Nur ein wenig FYI</string>
+    <string name="Language">Sprache</string>
+    <string name="Line_Delimiters">Trennzeichen</string>
+    <string name="Line_endings">Zeilenenden</string>
+    <string name="Location">Lage: %s</string>
+    <string name="Main_Settings">Haupteinstellungen</string>
+    <string name="New">Neu</string>
+    <string name="No">Nein</string>
+    <string name="No_Data">No Data</string>
+    <string name="OK">OK</string>
+    <string name="Open">Öffnen</string>
+    <string name="Open_File">Datei öffnen</string>
+    <string name="Open_Last">Letzte öffnen</string>
+    <string name="Operation_Canceled">Vorgang abgebrochen</string>
+    <string name="Save">Speichern</string>
+    <string name="Save_As">Speichern Als</string>
+    <string name="Save_File">Datei speichern</string>
+    <string name="Save_current_file">Aktuelle Datei speichern?</string>
+    <string name="Search">Suche</string>
+    <string name="Select">Wählen</string>
+    <string name="Settings">Einstellungen</string>
+    <string name="To_open_last_edited_file">Zum Öffnen der zuletzt bearbeiteten Datei</string>
+    <string name="Version">Version</string>
+    <string name="Warranty_Information">Garantieinformationen</string>
+    <string name="Yes">Ja</string>
+    <string name="You_have_made_some_changes">Sie haben einige Änderungen vorgenommen</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Leertaste +"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="about_message">Dies ist der Simple Text Editor für Android. Weitere Informationen erhalten Sie unter http://en.maxistar.ru/projects/textpad.</string>
+    <string name="app_name">Simple Text Editor</string>
+    <string name="app_name_settings">Simple Text Editor - Einstellungen</string>
+    <string name="cant_read_folder">Ordner kann nicht gelesen werden!</string>
+    <string name="opened_last_edited_file">zuletzt bearbeitete Datei %s geöffnet</string>
+    <string name="s_not_found">"%s" wurde nicht gefunden</string>
+    <string name="searchHint">Text</string>
+    <string name="searchLabel">Suche</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

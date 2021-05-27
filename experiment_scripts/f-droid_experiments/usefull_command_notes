@@ -1,0 +1,17 @@
+This link helped me to have app source code 
+https://forum.f-droid.org/t/automated-way-of-downloading-source-code-of-all-apps-from-repo/10450
+
+first step, downloading the index at url  https://f-droid.org/repo/index.xml
+	wget  https://f-droid.org/repo/index.xml
+
+
+list tar files urls
+sed -i -e 's/apkname>/apkname>\n/g' index.xml|grep \/apkname index.xml|cut -d "<" -f 1|sort|sed -e 's!^!https://f-droid.org/repo/!' -e 's/.apk/_src.tar.gz/'
+
+
+command to download all apps
+rsync -a --info=progress2 --human-readable 'rsync://ftp.fau.de/fdroid/repo/*' --include='*_src.tar.gz' --exclude='*' destination_dir
+
+
+-----> Or simply go to app f-droid page and download the link at """to this source tarball""
+ "It is built and signed by F-Droid, and guaranteed to correspond to this source tarball." 

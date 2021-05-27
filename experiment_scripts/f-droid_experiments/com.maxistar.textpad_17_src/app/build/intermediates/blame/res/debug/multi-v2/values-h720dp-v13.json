@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lavoisier/svn_workspace/wapet/security/fridaDroid_final_project/experiment_scripts/f-droid_experiments/com.maxistar.textpad_17_src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/lavoisier/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5bec394e7272ec765859ae9c167cfdec/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

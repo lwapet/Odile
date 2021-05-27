@@ -1,0 +1,599 @@
+
+
+****************************
+recap travail avec Ole
+ Objectif: réutiliser les fonctions de l'art. 
+ Cible : Objets mémoire 'méthodes,classes,functions de l'art, champs des objets ou des classes'
+ 
+ Question 1: Comment obtenir les  Methodes de l'art exposées ?
+ Reponse : Utiliser le js en envite commande avec le frida-server sur l'émulateur et l'application démarrée. 
+Module.enumerateExportsSync( 'libart.so').map(function(e){return e.name;}).filter( function(name){return name.includes("AddListener");} ) 
+		ceci donne le nom compilé  de la méthode
+	Utiliser ce nom pour crée une nativeFunction dans le type script. 
+  Pour le reste (signature de la méthode...) se battre avec demangle.com ou https://github.com/eklitzke/demangle , le code source .... 
+
+ Question 2: Comment Obtenir l'offset d'un champ d'un object. Utiliser le script probe.sh
+   Ajouter l'offset obtenu à l'addresse de l'objet pour avoir le champ recherché. 
+
+ Question 3: Comment savoir quelles fonctions utiliser??? Regarder le code de l'ART.  :)
+
+
+    
+        
+git reset --hard
+git branch -a
+ git checkout xxx
+git tag
+git checkout xxx
+
+to update my git to another version
+git stash 
+git checkout new_version
+git stast pop
+
+versions
+Ole original tag android-wear-8.1.0_r1 , branch master
+The one I used to implement the tracer on the emulator android-cts-8.1_r13
+the one I use for the samsung phone : android-8.0.0_r36
+frida-gadget used for a long time on phone (12.5.3)
+
+
+
+
+to analyse binary
+
+readelf -s --wide ext/private-libraries/libart.so  | grep XXX
+
+****************************
+
+adb -e shell
+
+$ adb root # might be required
+$ adb push frida-server /data/local/tmp/ 
+$ adb shell "chmod 755 /data/local/tmp/frida-server"
+$ adb shell "/data/local/tmp/frida-server &"
+
+ frida-ps -U
+
+Module.enumerateExportsSync(
+'libart.so').map(e => e.name).filter( name => name.includes("AddListener") ) 
+
+adb install locker-fe666****
+
+bash adb-run.sh locker-fe66******
+
+
+adb install com.*.**
+
+debugging via gdb
+
+./gdbserver --attach "*:1234" 5396 
+adb forward tcp:1234 tcp:1234
+./prebuilt/linux-x86_64/bin/gdb
+
+
+ Frida   : Listening on 127.0.0.1 TCP port 27042
+
+
+virtualenv --python=python3.5 /tmp/venv
+
+source /tmp/venv/bin/activate
+
+deactivate
+
+pip install -r requirements.txt
+ source frida_env/bin/activate
+
+ python3 -m venv frida_env
+
+
+
+########
+ emulator -avd Nexus_5X_API_23
+
+
+git checkout HEAD^ tracer.py
+git pull tracer.py
+
+
+
+
+
+
+
+
+
+
+
+Use this command:
+_workspace/wapet/security/fridaDroid/art-tracerlavoisier@lavois
+gksudo -k gedit /etc/gdm/Init/Default
+
+to add the following script to the display manager default initialization configuration file:
+
+xrandr --newmode "2104x1200_60.00"  211.75  2104 2248 2472 2840  1200 1203 1213 1245 -hsync +vsync
+xrandr --addmode VGA1 2104x1200_60.00
+xrandr --output VGA1 --mode 2104x1200_60.00
+
+The mode details can be found from the cvt command
+
+cvt -v 2100 1200
+
+
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:/home/lavoisier/svn_workspace/wapet/security/android-sdk-linux/emulator
+export PATH=$PATH:/home/lavoisier/svn_workspace/wapet/security/android-sdk-linux/tools
+export PATH=$PATH:/home/lavoisier/svn_workspace/wapet/security/android-sdk-linux/tools/bin
+export PATH=$PATH:/home/lavoisier/svn_workspace/wapet/security/android-sdk-linux/build-tools/27.0.2
+export SDK=/home/lavoisier/svn_workspace/wapet/security/android-sdk-linux
+export NDK_TOOLCHAIN=/home/lavoisier/svn_workspace/wapet/security/fridaDroid/ndk-toolchain
+    
+
+
+kill -- -$(ps -o pgid= $PID | grep -o [0-9]*)
+
+ pip install virtualenv.
+$ virtualenv --version.
+$ cd my_project_folder $ virtualenv my_project.
+$ virtualenv -p /usr/bin/python2.7 my_project.
+$ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7.
+$ source my_project/bin/activate.
+$ pip install requests.
+$ deactivate.
+
+
+net.ipv4.tcp_syn_retries=9
+sudo gedit /etc/sysctl.conf
+
+
+
+
+
+
+
+
+sh ./scripts/run_saaf.sh -hl <filename>
+
+
+
+
+
+
+
+
+
+permissions to look for 
+
+android.permission.BIND_DEVICE_ADMIN
+android.permission.GET_TASKS
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.WAKE_LOCK
+android.permission.RECEIVE_BOOT_COMPLETED
+
+apis to look for 
+
+WakeLock
+TimerTask
+DeviceAdminReceiver
+DevicePolicyManager
+ScarePackage
+onBackPressed
+activityManager.moveTaskToFront - when on the user click on pause
+onBackPressed + empty ( to avoid finish the activity )
+
+
+
+
+//*/*****instrumenter 
+
+pour instrumenter l'apk, j'utilise le script "apk_builder" dans appmon. 
+Il exécute les étapes suivantes : 
+1. Depackage le fichier .apk
+2. Injecte la ligne "System.loadLibrary("frida.so") le plus haut possible dans le code (activity.onCreate)
+3. ajoute la lib frida.so dans le dossier lib de l'apk
+4. repackage l'apk
+5. zipalign l'apk
+6 signe l'apk
+ça marche
+je teste ça
+Parfois le script apk_builder de appmon plante
+Car il ne trouve pas la main actrivity
+C'est pourquoi j'ai réécri un script en Java
+Qui marche parfois mieux
+Je vais te l'envoyer
+Okay
+(Il faut juste que je le rende utilisable par tout le monde 😛
+ )
+Mince. 🙄
+. D'accord En attendant je continue de suivre tes étapes. 
+Je t'ai envoyé un mail contenant le jar qui permet d'instrumenter un apk
+Dans le zip, tu trouveras : 
+FridaInstrumenter.jar : il faut l'exécuter avec l'option -c (pour le fichier de config) et -a pour l'apk à instrumenter
+config.properties : c'est le fichier de config de FridaInstrumenter.jar, il faut que tu y renseignes le chemin vers les outils tesl que zipalign ou apksigner
+lib.zip : ce sont les frida.so files selon les différentes architectures android
+je t'ai envoyé un autre mail qui contient un lien de téléchargement vers l'apk du locker déjà instrumenté
+Je vais déjeuner, on peut s'appeler après si besoin !
+Je t'ai ajouté sur le repo gitlab FridaInstrumenter, pour que tu puisses voir le code source
+
+
+
+
+
+java -jar FridaInstrumenter-frida-gum-frida-java.jar -c config.properties -a test-frida-gum-frida-java.apk 
+
+
+
+
+ sudo modprobe -r r8169
+lavoisier@lavoisier-X550CA:~$ sudo modprobe r8169
+
+
+
+keystore keypass of lavoisierwapet : 2545poly
+
+
+NOTE :  I modfied the process of build ( the package.json of the gumjs) to install frida-java from my computer. 
+
+
+to test
+rm -rfv build/.frida-gum-npm-stamp    # force the reinstallation of nmp modules
+
+rm -rfv build/frida-linux-x86_64
+rm -rfv build/frida-linux-x86
+rm -rfv build/tmp-linux-x86_64/
+rm -rfv build/tmp-linu-x86
+rm -rfv build/tmp-android-x86_64/
+rm -rfv build/tmp-android-x86
+rm -rfv build/frida-android-x86_64 
+rm -rfv build/frida-android-x86
+make gum-64
+make gadget-android                   # construct the frida-gaget
+
+
+to find, doctoriales (2 credit pro) , ateliers, Hippocampe (1 credit pro)
+
+
+Ecole de jeunes chercheurs (1credit scien)(*3) --- cours (1credit scien) 
+ ----- Séminaires internes doctorant(1credit scien)
+
+
+
+
+To resolve include problems
+
+
+   --(step A)--- Pull libc++.so from the emulator add the lib to the linker (folder and name) 
+	and 
+    1-- use the ndk toolchain with -nostdinc++  to avoid includes from the toolchain 
+        and adding the libxx/include AOSP source code in include files
+
+    2-- hack the downloaded ndk  (modify occurences of  __ndk by __ )  to generate
+	a new toolchain (unusable because libc++.so contains __ndk1 and include contains __1).
+        symply use this toolchain. 
+        
+   
+
+
+where the sdcard is mounted /mnt/media_rw/12FD-2001
+
+
+adb logcat | grep "InstrumenterUtils\|FridaInstrumenter\|ApplicationContextProvider\|InstallReceiver\|InstallReceiverJobIntentService\|InstallReceiverService\|InstrumenterActivity\|MainActivity\|NewZipAlign\|NewApkSigner\|PasswordRetriever\|Instrumenter\|CollecLogJobIntentService"
+
+
+adb logcat | grep "InstrumenterUtils\|FridaInstrumenter\|ApplicationContextProvider\|InstallReceiver\|InstallReceiverJobIntentService\|InstallReceiverService\|InstrumenterActivity\|MainActivity\|NewZipAlign\|NewApkSigner\|PasswordRetriever\|Instrumenter\|CollecLogJobIntentService\|Singleton\|PackageManager\|DexPrinter\|LabelAssigner\|StmtVisitor\|JReturnVoidStmt\|JReturnStmt\|JRetStmt\|JAssignStmt\|frida\|Frida\|FileUtils"
+
+frida requirements
+
+ beautifulsoup4==4.6.0
+bs4==0.0.1
+certifi==2018.4.16
+chardet==3.0.4
+colorama==0.3.9
+frida==12.2.3
+idna==2.6
+Jinja2==2.10
+lxml==4.2.1
+MarkupSafe==1.0
+prompt-toolkit==1.0.15
+Pygments==2.2.0
+pymongo==3.6.1
+requests==2.18.4
+six==1.11.0
+termcolor==1.1.0
+urllib3==1.22
+wcwidth==0.1.7
+     
+     
+
+
+
+
+
+To use the helper (to see exposed methods)
+-- requirements 
+  NDK_TOOLCHAIN
+
+-- actions
+  start frida server inside the emulator
+  
+  make ; make deploy
+
+  start you app (without frida)
+
+  frida -U --enable-jit  "apppkage" 
+
+  fridajs command!!! eg: Module.enumerateExportsSync(
+'libart.so').map(e => e.name).filter( name => name.includes("AddListener") ) 
+
+
+
+
+
+To trace app
+
+  bash test.sh to inject lib.so
+  bash reinitialize_todel.sh
+  
+
+if error kill_restart adb server.
+
+Après le montage graphique, 
+sudo mount --bind /media/lavoisier/UBUNTU/home/lavoisier/svn_workspace /home/lavoisier/svn_workspace 
+
+to run heimdall (used to flash twrp on ubuntu)
+sudo QT_X11_NO_MITSHM=1 heimdall-frontend
+
+
+[target_machine]
+system = 'android'
+cpu_family = 'arm'
+cpu = 'aarch64'
+endian = 'little'
+
+[binaries]
+c = 'aarch64-linux-android-clang'
+cpp = 'aarch64-linux-android-clang++'
+ar = 'aarch64-linux-android-ar'
+ld = 'aarch64-linux-android-ld'
+strip = 'aarch64-linux-android-strip'
+
+[properties]
+c_args = ['-Os','-fPIC']
+c_link_args = ['-static', '-s']
+
+
+[host_machine]
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+endian = 'little'
+
+[target_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'aarch64'
+endian = 'little'
+//////////// 
+
+
+
+
+not used
+
+
+
+
+
+
+
+
+
+
+
+some radare commands
+r2 file to open a file
+s  to seek , s- s+ to undo
+is~???? command to search    and : pz @ hit.... to jump on the correct location 
+pd N_opcodes    to print codes
+
+
+
+
+
+---------- step one on phone, looking at instrumentation offset manually (by looking at the asm code of functions using runtime->instrumentation)
+_ZN3art3Dbg28ProcessDeoptimizationRequestERKNS_21DeoptimizationRequestE (to start, it is the first line of code)
+_ZN3art3Dbg42IsForcedInterpreterNeededForResolutionImplEPNS_6ThreadEPNS_9ArtMethodE
+_ZN3art3Dbg38IsForcedInterpreterNeededForUpcallImplEPNS_6ThreadEPNS_9ArtMethodE
+_ZN3art3Dbg22RequiresDeoptimizationEv (top)
+_ZN3art11ClassLinker30ShouldUseInterpreterEntrypointEPNS_9ArtMethodEPKv  (to look at)
+_ZN3art6Thread21QuickDeliverExceptionEv (to look at second time)
+_ZN3art15instrumentation15Instrumentation26SetEntrypointsInstrumentedEb
+_ZN3art2gc4Heap21SetAllocationListenerEPNS0_18AllocationListenerE
+_ZN3art2gc4Heap24RemoveAllocationListenerEv
+artInstrumentationMethodEntryFromCode
+artInstrumentationMethodExitFromCode
+SanityCheckExistingBreakpoints
+_ZN3art7Runtime19DeoptimizeBootImageEv
+_ZN3art2gc4Heap15ChangeAllocatorENS0_13AllocatorTypeE(last call)
+_ZN3art11ClassLinker22FixupStaticTrampolinesENS_6ObjPtrINS_6mirror5ClassEEE (to confirm)
+_ZN3art21QuickExceptionHandler26UpdateInstrumentationStackEv(to confirm)
+
+
+
+
+
+
+------------------- the content of the magisk script file to root the phone in /data/adb/service.d
+ #!/system/bin/sh
+echo "test  shell script Okay "
+magisk resetprop ro.debuggable 1
+
+
+*-----------------------
+trying to obtain the getClassLinker object looking functions calling GetClassLinker()
+
+DumpVerifier()
+GetQuickOatCodeBegin()++++
+
+Instrumentation::GetQuickCodeFor()-----
+Runtime::CreateImtConflictMethod(LinearAlloc* linear_alloc)--
+---
+ImageWriter::PruneAndPreloadDexCache()-----
+ImageWriter::PruneNonImageClasses()---
+CreateInstanceOf(--
+----ImageWriter::CreateImageRoots()--
+Runtime::CreateResolutionMethod() ---
+----FindClass()----
+FindMethod()
+ Runtime::CreateCalleeSaveMethod()-
+----Runtime::FixupConflictTables()-the perfect one to begin with
+
+
+VMClassLoader_getBootClassPathEntries()-----CheckVerifiedClass()---ImageWriter::ComputeLazyFieldsForImageClasses()----HInliner::AddTypeGuard()-----CheckCompiledMethods()----ImageWriter::ComputeLazyFieldsForImageClasses()---CompilationHelper::Compile()----MakeDexFileExecutable()-----DumpIMTForClass() ----DumpIMTForMethod()------SetupIntrinsic()---CompilerDriver::ResolveDexFile()-----CompilerDriver::CompileDexFile()--ObjPtr<mirror::DexCache> FindDexCacheWithHint()----
+-------------is the first instruction
+
+---Heap::CheckGcStressMode()------void CodeGenerator::EmitJitRoots()---------LoadAndUpdateStatus()-----------
+CompilerDriver::VerifyDexFile()
+--CompilerDriver::SetVerifiedDexFile()---
+mirror::String* GetTargetString()--
+HGraph::InitializeInexactObjectRTI()------
+CreateWeakReference()-- second instruction
+
+PrepareClass()-------ImageWriter::VisitClassLoaders()-----is the last instruction
+SetupIntrinsic()-----ArtMethod::IsImagePointerSize(-----------
+
+
+HSharpening::ProcessLoadString()---- (obtain the runtime and get the classLinker)
+
+
+
+HInstructionBuilder::ResolveMethod() and HInstructionBuilder::ResolveMethod() five first instructions are the same and it is the second
+
+
+
+****************** trying to obtain getShorty
+racer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("CheckVarArgs");} )           
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("TracePossibleHeapValue");} ) 
+                                                                      
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("CheckMethodAndSig");} )      
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("GetArgumentsSize");} )       
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("FindNativeMethod");} )       
+[
+    "artFindNativeMethod"
+]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> YESSSSSS 
+ReferenceError: identifier 'YESSSSSS' undefined
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("PopInstrumentationStackFrame"
+);} )                                                                 
+[
+    "_ZN3art15instrumentation15Instrumentation28PopInstrumentationStackFrameEPNS_6ThreadEPmmm"
+]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> NOTSOGOOD
+                                                                      
+ReferenceError: identifier 'NOTSOGOOD' undefined
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("GenericJniMethodEnd");} )    
+[
+    "_ZN3art19GenericJniMethodEndEPNS_6ThreadEj6jvaluemPNS_9ArtMethodEPNS_11HandleScopeE"
+]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> ACCEPTABL
+E                                                                     
+ReferenceError: identifier 'ACCEPTABLE' undefined
+
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.en
+umerateExportsSync( 'libart.so').map(function(e){return e.name;}).filt
+er( function(name){return name.includes("GetMethodShorty");} )        
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.enum
+erateExportsSync( 'libart.so').map(function(e){return e.name;}).filter( 
+function(name){return name.includes("GetMethodNumArgRegistersIncludingTh
+is");} )                                                                
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.enum
+erateExportsSync( 'libart.so').map(function(e){return e.name;}).filter( 
+function(name){return name.includes("ArtInterpreterToCompiledCodeBridge"
+);} )                                                                   
+[
+    "_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPKNS_7DexFile8CodeItemEPNS_11ShadowFrameEPNS_6JValueE"
+]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> ACCEPTABLET
+OO                                                                      
+ReferenceError: identifier 'ACCEPTABLETOO' undefined
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.enum
+erateExportsSync( 'libart.so').map(function(e){return e.name;}).filter( 
+function(name){return name.includes("EnterInterpreterFromInvoke");} )   
+[
+    "_ZN3art11interpreter26EnterInterpreterFromInvokeEPNS_6ThreadEPNS_9ArtMethodENS_6ObjPtrINS_6mirror6ObjectEEEPjPNS_6JValueEb"
+]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> ACCEPTABLEC
+OMPLICATED                                                              
+ReferenceError: identifier 'ACCEPTABLECOMPLICATED' undefined
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]-> Module.enum
+erateExportsSync( 'libart.so').map(function(e){return e.name;}).filter( 
+function(name){return name.includes("GetInsForProxyOrNativeMethod");} ) 
+                                                                        
+[]
+[Samsung SM-A750FN::com.example.lavoisier.testfridatracer]->  
+
+
+
+
+tested: 
+MOREACCEPTABLE
+artQuickGenericJniTrampoline
+
+
+
+
+
+
+
+
+
+#########################################modifications in configurations################################
+
+
+If you want to create another tracer and add another helper to it
+---> generate a new toolchain for your architecture (you can see the android documentation)
+---> setup the folder on the helper/meson_option.txt of your tracer. 
+---> setup the correct link_args in the helper/meson.build to the correct architecture (second parameter)
+---> setup the ~/.bashrc with export (in this file)
+
+
+
+
+
+############################### on adb shell to have the package name and uid (was usefull to test EagleEye 
+			https://github.com/MindMac/AndroidEagleEye
+
+   dumpsys package | grep lavoisier
+   dumpsys package com.example.lavoisier.testfridatracer | grep userId
+   	
+####################################"""" when helping Louison, need to activate installation from adb 
+adb shell settings put global verifier_verify_adb_installs 0
+
+
+   
+
+
+
+
+

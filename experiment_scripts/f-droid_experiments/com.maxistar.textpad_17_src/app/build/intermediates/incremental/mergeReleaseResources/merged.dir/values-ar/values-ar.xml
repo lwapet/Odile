@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="About">حول</string>
+    <string name="About_Editor">حول المحرر</string>
+    <string name="Appearance">المظهر</string>
+    <string name="Are_you_sure_to_quit">هل تريد بالتاكيد الخروج من التطبيق ؟</string>
+    <string name="Background_Color">لون الخلفية</string>
+    <string name="Can_not_read_file">لا يمكن قراءة الملف</string>
+    <string name="Can_not_write_file">لا يمكن حفظ الملف</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="Choose_Language">إختار اللغة</string>
+    <string name="Choose_a_background_color">إختار لون الخلفية</string>
+    <string name="Choose_a_color">إختار لون</string>
+    <string name="Choose_a_font_color">إختار لون الخط</string>
+    <string name="Choose_a_font_size">إختار حجم الخط</string>
+    <string name="Choose_a_font_type">إختار نوع الخط</string>
+    <string name="Click_to_change_encoding">أنقر لتغيير الترميز</string>
+    <string name="Click_to_change_language">أنقر لتغيير لغة الواجهة</string>
+    <string name="Continue">متابعة</string>
+    <string name="Create">حفظ</string>
+    <string name="Encoding">الترميز</string>
+    <string name="Existing_file_will_be_overwritten">سيتم إستبدال الملف الموجود، هل تريد المتابعة بالتاكيد؟</string>
+    <string name="Exit">خروج</string>
+    <string name="File_Name">إسم الملف:</string>
+    <string name="File_Written">تم حفظ الملف</string>
+    <string name="File_already_exists">الملف موجود بالفعل</string>
+    <string name="File_not_found">لم يتم العثور على الملف</string>
+    <string name="File_not_saved">لم يتم حفظ الملف:</string>
+    <string name="File_opened_">تم فتح الملف</string>
+    <string name="Font">الخط</string>
+    <string name="Font_Color">لون الخط</string>
+    <string name="Font_Size">حجم الخط</string>
+    <string name="Just_a_little_FYI">فقط القليل لمعلوماتك</string>
+    <string name="Language">اللغة</string>
+    <string name="Line_Delimiters">محددات السطر</string>
+    <string name="Line_endings">نهايات السطر</string>
+    <string name="Location">الموقع: %s</string>
+    <string name="Main_Settings">الإعدادات الرئيسية</string>
+    <string name="New">جديد</string>
+    <string name="No">لا</string>
+    <string name="No_Data">لا توجد بيانات</string>
+    <string name="OK">حسنا</string>
+    <string name="Open">فتح</string>
+    <string name="Open_File">فتح ملف</string>
+    <string name="Open_Last">فتح الأخير</string>
+    <string name="Operation_Canceled">تم إلغاء العملية</string>
+    <string name="Save">حفظ</string>
+    <string name="Save_As">حفظ كـ</string>
+    <string name="Save_File">حفظ الملف</string>
+    <string name="Save_current_file">هل تريد حفظ الملف الحالي ؟</string>
+    <string name="Search">بحث</string>
+    <string name="Select">تحديد</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="To_open_last_edited_file">لفتح آخر ملف تم تحريره</string>
+    <string name="Version">الإصدار</string>
+    <string name="Warranty_Information">معلومات الضمان</string>
+    <string name="Yes">نعم</string>
+    <string name="You_have_made_some_changes">لقد قمت ببعض التغييرات.</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="about_message">هذا هو محرر النص البسيط للأندرويد. للحصول على المزيد من المعلومات ، تفضل بزيارة http://en.maxistar.ru/projects/textpad.</string>
+    <string name="app_name">محرر النص البسيط</string>
+    <string name="app_name_settings">إعدادات - محرر النص البسيط</string>
+    <string name="cant_read_folder">لا يمكن قراءة المجلد!</string>
+    <string name="opened_last_edited_file">فتح آخر ملف تم تحريره %s</string>
+    <string name="s_not_found">"%s" لم يتم العثور على</string>
+    <string name="searchHint">النص</string>
+    <string name="searchLabel">بحث</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

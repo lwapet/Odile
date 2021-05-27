@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="About">Hakkında</string>
+    <string name="About_Editor">Hakkında</string>
+    <string name="Appearance">Görünüm</string>
+    <string name="Are_you_sure_to_quit">Uygulama Kapatılsın mı?</string>
+    <string name="Background_Color">Arka plan Rengi</string>
+    <string name="Can_not_read_file">Dosya okunamadı!</string>
+    <string name="Can_not_write_file">Dosya yazılamıyor!</string>
+    <string name="Cancel">İptal</string>
+    <string name="Choose_Language">Dil Seçin</string>
+    <string name="Choose_a_background_color">Arka plan rengini seçin</string>
+    <string name="Choose_a_color">Renk Seçin</string>
+    <string name="Choose_a_font_color">Yazı rengini seçin</string>
+    <string name="Choose_a_font_size">Yazı boyutunu seçin</string>
+    <string name="Choose_a_font_type">Yazı tipini seçin</string>
+    <string name="Click_to_change_encoding">Kodlamayı değiştirmek için tıklayın</string>
+    <string name="Click_to_change_language">Arayüz dilini değiştirmek için tıklayın</string>
+    <string name="Continue">Devam</string>
+    <string name="Create">Kaydet</string>
+    <string name="Encoding">Kodlama</string>
+    <string name="Existing_file_will_be_overwritten">Mevcut dosyanın üzerine yazılacak, devam edilsin mi?</string>
+    <string name="Exit">çıkış</string>
+    <string name="File_Name">Dosya Adı:</string>
+    <string name="File_Written">Dosya Yazıldı</string>
+    <string name="File_already_exists">Dosya zaten mevcut</string>
+    <string name="File_not_found">Dosya bulunamadı!</string>
+    <string name="File_not_saved">Dosya kaydedilmedi:</string>
+    <string name="File_opened_">Dosya açıldı </string>
+    <string name="Font">Yazı</string>
+    <string name="Font_Color">Yazı Rengi</string>
+    <string name="Font_Size">Yazı Boyutu</string>
+    <string name="Just_a_little_FYI">Metin düzenleyici hakkında bilgiler</string>
+    <string name="Language">Dil</string>
+    <string name="Line_Delimiters">Satır Sınırlayıcıları</string>
+    <string name="Line_endings">Satır Sonları</string>
+    <string name="Location">Yer: %s</string>
+    <string name="Main_Settings">Temel Tercihler</string>
+    <string name="New">Yeni Dosya</string>
+    <string name="No">Hayır</string>
+    <string name="No_Data">Veri Yok</string>
+    <string name="OK">Tamam</string>
+    <string name="Open">Dosya Aç</string>
+    <string name="Open_File">Dosya Aç</string>
+    <string name="Open_Last">Son Dosyayı Aç</string>
+    <string name="Operation_Canceled">İşlem iptal edildi</string>
+    <string name="Save">Kaydet</string>
+    <string name="Save_As">Farklı Kaydet</string>
+    <string name="Save_File">Dosya Kaydet</string>
+    <string name="Save_current_file">Dosya kaydedilsin mi?</string>
+    <string name="Search">Ara</string>
+    <string name="Select">Seç</string>
+    <string name="Settings">Tercihler</string>
+    <string name="To_open_last_edited_file">Düzenlediğiniz son dosyayı açın</string>
+    <string name="Version">Sürüm</string>
+    <string name="Warranty_Information">Garanti Bilgileri</string>
+    <string name="Yes">Evet</string>
+    <string name="You_have_made_some_changes">Bazı değişiklikler yaptınız.</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"sil"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"İşlev+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Üst Karakter+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"boşluk"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menü+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="about_message">Android cihazlar için metin düzenleyici uygulamadır. Daha fazla bilgi için: http://en.maxistar.ru/projects/textpad.</string>
+    <string name="app_name">Metin Düzenleyici</string>
+    <string name="app_name_settings">Metin Düzenleyici - Tercihler</string>
+    <string name="cant_read_folder">klasör okunamıyor!</string>
+    <string name="opened_last_edited_file">son dosya açıldı %s</string>
+    <string name="s_not_found">"%s" bulunamadı</string>
+    <string name="searchHint">Metin</string>
+    <string name="searchLabel">Ara</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ara"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

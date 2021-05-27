@@ -1,0 +1,159 @@
+
+----- FORMATS DE GRAPHES. 
+   ***** ***** ***** Dans ce document je ne vais que m'appesantir que sur la signification des graphes produites 
+	au cours de l'évaluation de la scalabilité de Frida et de Odile, il me semble que l' explication du protocole,   
+	a été faite dans un rapport que j'avais précédemment envoyé et que j'ai rajouté à la suite de 
+	ce message, partie ANNEXE. Cependant je rappelle directement  ci dessous les définitions 
+        sur lesquels on a beaucoup insisté lors des précédentes réunions. 
+   ***** ***** ***** Quelques définitions: 
+	*** Méthodes testées : Méthodes soumises à l'outil de tracing, elles peuvent être appellées ou pas par l'appli
+         		mais ce dont on est certain c'est qu'elles font partie des méthodes chargées en mémoire
+	*** Méthodes appellées: Méthodes appelées par l'application, au cours de son fonctionnement. L'outils de tracing 
+			en principe devrait les détecter mais il peut arriver que ce ne soit pas le cas. 
+	*** Méthodes tracées : Méthodes qui ont été appellées par l'application et qui sont tracées par l'outils de tracing
+			Le tracing peut bien se passer, ou pas
+	*** Méthodes correctement tracées : Tracing effectués sans erreurs par l'outil de tracing. 
+	*** Méthodes non correctement tracées: Exception générée par l'outil de tracing à l'appel de la méthode à tracer. 
+	*** Occurence de crash: L'outil de tracing NOUS RENVOIE UNE ERREUR car ne peut pas  poursuivre le tracing 
+		de toutes les méthodes testées au fur et à mesure que certaines parmis elles  sont appellées. 
+		Il peut arriver que l'outils crash en interne sans renvoyer d'erreur et fait mine de bien fonctionner,
+		 nous ne gérons pas ce dernier cas, et considérons que le tracing s'est effectué avec succès 
+ 		 
+
+   Notons aussi que, que ce soit pour Odile et pour Frida (remplacés par "*" lors du nommage des images),
+		   nous avons à chaque fois les même formats 
+	de graphes répartis en trois grands niveaux en fonction des données présentées. 
+   
+	
+   Niveau 1: On fixe un nombre N de méthodes testées (donc on teste N méthodes) sur une application, 
+		** on observe d'une part l'évolution de la consommation  mémoire en fonction du temps. 
+		** on observe d'autre part l'évolution du nombre de méthodes correctement tracées 
+				 et du nombre de méthodes non correctement tracées
+		On a donc deux graphes qui rendent compte de ces évolutions comme le montre la figure Niveau1_*.pdf 
+		les instants sont séparés en moyenne de 300 ms et le tracing commence à partir du 10 ième instant. 
+		
+		NB: A défaut de recommencer les tests avec l'appli vide, ce qui me demanderais de repofiner 
+		mon script de test et prendrai beaucoup de temps (ce qui risque me freiner au vu des délais et de 
+		l'importance probablement négligeable du ground-truth vis à vis de l'idée que je me faisais de l'objectif de l'éval), 
+		 les premiers instants peuvent être considérés comme 
+		ground truth, car l'appli est démarrée et aucun tracing n'est effectuée sachant que c'est le tracing qui consomme les ressources
+		
+		** On note aussi dans ce graphe s'il y'a eu une Occurence de crash.
+
+		NB les images de ce niveau ont été tirés de l'évaluation de 2500 méthodes (méthodes testées)
+		 par Odile et Frida sur une même application 
+		locker-02332cbb5105296f629abaad6a8675c3725690eda91242ec844e8801c0ad1821
+
+  Niveau 2: On reprend la même expérience que précédemment en faisant varier le nombre de méthodes testées. 
+		les méthodes testées peuvent aller de 100 à 7000 avec un pas de 100
+		On obtient trois graphes sur une même figure comme le montre  Niveau2_methods_tested_*.pdf   
+		** Le premier montre la mémoire consommée en fonction du nombre de méthodes testées
+		** Le second, les méthodes correctement tracées ou pas correctement tracées en fonction du nombre de méthodes testées
+		** Le dernier est composé de 2 Boxplots qui représentent repectivement la repartition 
+			de l'occurence des crashs en fonction du nombre de méthodes testées. 
+			Et celle des tracing effectué avec succès  en fonction du nombre de méthodes testées. 
+
+
+		Pour voir ce qui influencait réellement les crash nous avons reproduit les mêmes images précédente en 
+		classant les ordonnées des boxs plots et les abcisses des autres graphes en ordre croissant  du nombre de méthodes tracées, puis en fonction de la mémoire, Niveau2_method_traced_*.pdf, Niveau2_memory_*.pdf  
+
+
+ Niveau 3: Cette fois ci on reprend la même épérience du niveau 2 sur plusieurs applications. 
+		On obtient en sortie une image niveau3_methods_tested_*.pdf qui regroupe les boxplots de toutes les  applications 
+		sur deux graphes
+		** Le premier graphe contient autant de box plot qu'il y'a d'applications et rend compte de la 
+		répartition du nombre de crahs en fonction du nombre de méthodes testées
+		** Le second graphe contient autant de box plot qu'il y'a d'applications et rend compte de la 
+		répartition du nombre de tracing réussis en fonction du nombre de méthodes testées
+
+		Comme au niveau 2, Pour voir ce qui influencait réellement les crashs nous avons reproduit les même images précédentes en 
+		classant les ordonnées de box plots en fonction du nombre de méthodes  tracées, puis en fonction de la mémoire
+		 Niveau3_method_traced_*.pdf, Niveau3_memory_*.pdf 
+
+
+
+
+
+----- ANNEXE. 
+	***** ***** ***** Rappel de l'objectif: l'objectif est de montrer que les outils de tracing actuels, 
+		à l'exemple  frida,   ont du mal a tracer un certain nombre de 
+		méthodes sans faire crasher l'application à tester. Nous nous proposons aussi de déterminer expérimentalement ce nombre
+  		de méthodes au delà duquel frida crash.
+
+	***** ***** ***** Rappel du fonctionnement interne de frida et de l'intuition que nous avons de la source d'erreur
+		Comme expliqué dans un précédent document envoyé à Alain, Frida dans son fonctionnement se base sur le module 
+		de reflexion de l'ART pour modifier les méthodes java que ce dernier doit exécuter. De manière beaucoup plus pratique l'utilisateur de frida
+		 doit lui fournir une nouvelle version de la méthode java dont il souhaite modifier le fonctionnement (ou simplement tracer) 
+		et frida, en s'aidant du hooking de certaines fonctions utiles du module de réflexion de l'ART retrouve la classe 
+		qui correspond à la méthode qui lui a été passée et modifie sa référence par la nouvelle version de cette méthode. 
+		
+	***** ***** ***** Problème: De ce qui précède, si l'utilateur de frida souhaite tracer un certain nombre de méthodes
+		il doit pour chacune de ces méthodes, générer son code de tracing, puis passer tous les codes générés pour toutes les 
+		méthodes à tracer à frida pour que frida remplace leur références mémoire en s'aidant du module de réflexion. 
+		Et cette stratégie ne passe pas à l'échelle car expérimentalement nous avons des bug pour un certain nombre élévé de méthodes. 
+
+	***** ***** ***** Validation par les expés: 
+		*** Pour en avoir le coeur net nous avons décidé de tracer sur un émulateur Android ( Nexus_5X_API_23)
+		un certain nombre de méthodes lors le démarrage de plusieurs applications  
+		Parmis quelques 15000  méthodes chargés par l'application dont une partie contient les librairies android (8663)  
+		et une autre celles  propres à l'application, nous avons sélectionné au hazard quelques méthodes dont on est
+		certain qu'ils sont tous chargés par l'ART au cours du lancement de l'application. 
+		*** Cette sélection s'est faite au hazard car par défaut les méthodes sont classées par ordre alphabétique et sans cette sélection random, 
+		les résultats sont souvent biaisés. En effet certaines méthodes sont applellées beaucoup plus que d'autres et lorsqu'elles 
+		se suivent dans le fichier en entrée, ces dernières seront beaucoup plus tracées que d'autres. Par exemple on peut juste décider 
+		de tester 10 méthodes et si elles sont trop appellées par l'appli et donc tracées, l'appli sera plus encleinte à crasher que si 
+		l'on teste 100 méthodes qui ne sont jamais appellés. 
+		*** D'où la distinction entre les méthodes testées et les méthodes tracées, car parmis les méthodes testées, toutes ne sont  pas 
+		tracées comme nous venons de l'expliquer. 
+		*** Et même parmis les méthodes passées à frida et qui sont tracées, certaines génèrent des erreurs 
+		Ces erreus sont généralement dûes à disparité entre le type de leurs arguments et ceux de la méthode qui porte 
+		le même nom et qui est en cours d'exécution. D'autres par contre fonctionnent normalement et l'on peut voir le résultat attendu de leur tracing.
+		Nous avons choisis de garder ces deux comportements pour pouvoir au mieux interpreter les résultats de ces évaluations. 
+	
+	***** ***** ***** Première partie des évaluations, où l'on montre que la quantité de mémoire utilisée par l'application augmente au lancement de cette dernière:
+		*** groupe de N méthodes: Nous avons sélectionné parmis les 5000 méthodes retenues plus haut un groupe de 50 méthodes et nous 
+		les avons passé à frida pour qu'il les trace au démmarage de l'application de test. En même temps nous avons mesuré à chaque instant 
+		du démarrage de cette application le nombre de méthodes qui etaient déjà tracées et la quantité de mémoire qui était utilisée.
+		NOTES (sur les instants) : 
+			** les premiers instants allant de 5 à 10 sont espacés de 500 ms , et correspondent à la phase d'attente de l'application 
+			car elle n'a pas encore reçue du code à tracer et attend que le nouveau code de ces méthodes lui soit envoyé
+			**  les autres correspondent à la phase d'executions , espacées de 300 ms et correspondent à la phase de démarrage
+			 et de tracing proprement dites
+		*** Resultat 1 : Comme le montre la figure  plot_100_methods.pdf, On peut voir que la quantité de mémoire utilisée par l'application 
+		augmente lors du démarrage de celle ci (figure toute à gauche) et qu'elle passe de 25 MB environs à presque 60 MB en 
+		5 * 300ms = 1.5 secondes.
+		*** Résultat 2 : Pour un certain nombre de méthodes **testées (et non tracées :)= )** , on peut voir le taille de mémoire utilisée
+		n'évolue pas forcément avec le nombre de méthodes tracées (cette fois ci et non testées :) ). Aussi, que le nombre de méthodes
+		tracés n'est pas toujours égal au nombre de méthodes testées.  La figure plot_1100_methods.pdf montre aussi que la mémoire est sollicitées
+		avant que les méthodes ne soient tracées car le pic de méthodes tracés s'observe plus de 14 * 0.3 = 4.2 seconde après la requète de tracing
+			Ceci est dû au fonctionnement interne de frida qui sollicite la mémoire pour sauvegarder les nouvelles versions 
+			de  toutes les fonctions à tester. Notons que jusqu'ici l'application a utilisée plus de 80 MB de mémoire interne 
+			sans qu'il n'y ait eu de crash. ce qui présuppose comme nous allons le constater que la taille de la mémoire doit 	
+			être couplée à un autre facteur pour générer crash. 
+
+		*** Résultat 3 : A partir de 700 méthodes testées on note l'occurence des crashs comme le montre le titre de la figure plot_700_methods.pdf
+		 Notons qu'ici aussi 10 tracing ont été effectués tout comme le nombre max de tracing du Résultat 3, pour à peu près la même quantité de mémoire utilisée
+
+		D'où nécessité de voir la tendance générale d'occurence de erreurs avec un nombre élévé de groupe de test allant de la taille de 100 à celle de 5000 méthodes. 
+
+	***** ***** ***** Tendance générale des erreurs 
+		*** Aperçu des crashs en fonction du nombre de méthodes testées. 
+		Sur le graphe de droite de la figure general_plot_ordered_according_to_number_of_methods_tested.pdf, les points orangés representent les crash  
+		et les point verts les tracing effectuées (avec erreur ou pas). A vue d'oeil on ne voit aucune correlation entre le nombre de méthodes passées
+		à Odile et les occurences de crash. Ceci s'explique par le fait que comme les méthodes à tester ont été selectionnées au hazard elle ne 
+		sont pas toutes tracées la preuve s'observe sur le graphe du milieu qui montre une répartition presque aléatoire du nombre de méthodes tracées 
+ 		en fonction du nombre de méthodes testées. D'où la nécessité de voir si le nombre de tracing (de méthodes tracées) influence les erreurs....
+		*** Aperçu des crashs en fonction du nombre de méthodes tracées. 
+		.....LA REPONSE A LA QUESTION POSÉE PRECEDEMMENT EST OUI comme le montre le graphe de droite de la figure general_plot_ordered_according_to_number_of_methods_traced.pdf (FIG)
+		Sur ce graphe on voit que les points orangé représentant les crash se regroupent à droite c'est à dire lorsque les méthodes tracées augmentent 
+		et les points verts, se regroupent plus à gauche c'est à dire lorsque l'on trace moins de méthodes. 
+		*** Aperçu des crashs en fonction de la mémoire utilisée. 
+		Nous avons voulu voir si la quantité de mémoire influençais le nombre de crash et nous constatons que ce n'est pas le cas car la corrélation 
+		entre crash et quantité de mémoire consommée sur la figure general_plot_ordered_according_to_memory_used.pdf n'est pas aussi visible que dans le cas précédent. 
+		
+	***** ***** ***** Conclusion
+		L'occurence des crash dépend fortement du nombre de méthodes tracées et comme le montre la figure FIG, c'est à partir de 700 méthodes testées 
+		(soit une juste une dizaine de méthode tracées) ,
+		qu'il devient probable de voir survenir le crash de l'application que l'on trace. 
+
+

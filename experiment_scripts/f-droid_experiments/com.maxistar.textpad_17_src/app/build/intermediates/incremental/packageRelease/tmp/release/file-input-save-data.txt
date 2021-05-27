@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Dec 28 18:23:29 CET 2020
+0.baseType=DIRECTORY
+0.base=/home/lavoisier/svn_workspace/wapet/security/fridaDroid_final_project/experiment_scripts/f-droid_experiments/com.maxistar.textpad_17_src/app/build/intermediates/transforms/dexMerger/release/0
+0.path=classes.dex
+0.set=DEX
+count=1

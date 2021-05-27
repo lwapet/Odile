@@ -1,0 +1,18 @@
+
+ ./tracer.py -O -p /home/lavoisier/svn_workspace/wapet/security/fridaDroid_final_project/frida_related_tools/tracers/art-tracer-emulator/agent/index_template_for_scalability_experiments  -f /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps/methods_loaded_by_apps/input_files_for_experiments_for_locker-0157cdbf66f014deee5dd4f1949b907aac1c8f9f7f4fb90e76ae724e55b05818/800_entries.json  -r /home/lavoisier/svn_workspace/wapet/security/fridaDroid_final_project/frida_related_tools/tracers/art-tracer-emulator/agent 
+
+
+./instrument_reinstall_start_and_observe_memory.sh /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps/apks/ 800 /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps
+
+
+./instrument_reinstall_start_and_observe_memory.sh /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps/apks/locker-0157cdbf66f014deee5dd4f1949b907aac1c8f9f7f4fb90e76ae724e55b05818.apk 800 /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps
+
+
+./expes_result_overview_tool.py -x /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps/memory_observations/locker-02332cbb5105296f629abaad6a8675c3725690eda91242ec844e8801c0ad1821 -n 800 -O 
+
+
+./repeat_experiments_on_apks.sh /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps/apks  15 100 15000 /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/odile_scalability_evaluation_on_many_apps 
+
+./repeat_experiments_on_apks.sh /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/frida_evaluation_on_many_apps/apks 15 100 15000 /media/lavoisier/ee9567d1-e98a-411a-8cea-516195e51630/frida_evaluation_on_many_apps 
+
+
